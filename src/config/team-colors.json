@@ -1,0 +1,322 @@
+{
+  "east-arizona-wildcats": {
+    "bg": "#003366",
+    "headerText": "#CC0033",
+    "cellText": "#F3F3F3"
+  },
+  "east-hawaii-rainbow-warriors": {
+    "bg": "#024731",
+    "headerText": "#C8C8C8",
+    "cellText": "#C8C8C8"
+  },
+  "east-washington-huskies": {
+    "bg": "#4B2E83",
+    "headerText": "#B7A57A",
+    "cellText": "#B7A57A"
+  },
+  "east-queens-royals": {
+    "bg": "#192C66",
+    "headerText": "#C9BB8C",
+    "cellText": "#C9BB8C"
+  },
+  "east-tennessee-volunteers": {
+    "bg": "#FF8200",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "east-wright-state-raiders": {
+    "bg": "#026937",
+    "headerText": "#FFE1A5",
+    "cellText": "#FFE1A5"
+  },
+  "east-ucla-bruins": {
+    "bg": "#3284BF",
+    "headerText": "#FFE800",
+    "cellText": "#FFE800"
+  },
+  "east-michigan-wolverines": {
+    "bg": "#FFCB05",
+    "headerText": "#00274C",
+    "cellText": "#00274C"
+  },
+  "east-santa-clara-broncos": {
+    "bg": "#862633",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "east-georgia-tech-yellow-jackets": {
+    "bg": "#B3A369",
+    "headerText": "#003057",
+    "cellText": "#003057"
+  },
+  "east-smu-mustangs": {
+    "bg": "#0033A0",
+    "headerText": "#C8102E",
+    "cellText": "#FFFFFF"
+  },
+  "east-vcu-rams": {
+    "bg": "#FFB300",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "east-byu-cougars": {
+    "bg": "#002E5D",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "east-gonzaga-bulldogs": {
+    "bg": "#C1C6C8",
+    "headerText": "#041E42",
+    "cellText": "#041E42"
+  },
+  "east-siena-saints": {
+    "bg": "#FFC72C",
+    "headerText": "#38761D",
+    "cellText": "#38761D"
+  },
+  "east-michigan-state-spartans": {
+    "bg": "#18453B",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "south-tennessee-state-tigers": {
+    "bg": "#00539F",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "south-georgia-bulldogs": {
+    "bg": "#BA0C2F",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "south-north-carolina-tar-heels": {
+    "bg": "#7BAFD4",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "south-villanova-wildcats": {
+    "bg": "#00205B",
+    "headerText": "#13B5EA",
+    "cellText": "#13B5EA"
+  },
+  "south-tcu-horned-frogs": {
+    "bg": "#4D1979",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "south-notre-dame-fighting-irish": {
+    "bg": "#0C2340",
+    "headerText": "#C99700",
+    "cellText": "#C99700"
+  },
+  "south-virginia-cavaliers": {
+    "bg": "#F84C1E",
+    "headerText": "#232D4B",
+    "cellText": "#232D4B"
+  },
+  "south-kennesaw-state-owls": {
+    "bg": "#FDBB30",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "south-furman-paladins": {
+    "bg": "#582C83",
+    "headerText": "#A7A8AA",
+    "cellText": "#A7A8AA"
+  },
+  "south-hofstra-pride": {
+    "bg": "#0B1E73",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "south-miami-hurricanes": {
+    "bg": "#F47321",
+    "headerText": "#005030",
+    "cellText": "#005030"
+  },
+  "south-clemson-tigers": {
+    "bg": "#F56600",
+    "headerText": "#522D80",
+    "cellText": "#522D80"
+  },
+  "south-florida-gators": {
+    "bg": "#0021A5",
+    "headerText": "#FA4616",
+    "cellText": "#FA4616"
+  },
+  "south-oregon-ducks": {
+    "bg": "#154733",
+    "headerText": "#FEE123",
+    "cellText": "#FEE123"
+  },
+  "south-cornell-big-red": {
+    "bg": "#B31B1B",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "south-texas-tech-red-raiders": {
+    "bg": "#CC0000",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "west-louisville-cardinals": {
+    "bg": "#AD0000",
+    "headerText": "#F1C232",
+    "cellText": "#F1C232"
+  },
+  "west-st-marys-gaels": {
+    "bg": "#D80024",
+    "headerText": "#06315B",
+    "cellText": "#06315B"
+  },
+  "west-western-kentucky-hilltoppers": {
+    "bg": "#C60C30",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "west-arkansas-razorbacks": {
+    "bg": "#9D2235",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "west-penn-quakers": {
+    "bg": "#011F5B",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "west-uconn-huskies": {
+    "bg": "#7C878E",
+    "headerText": "#000E2F",
+    "cellText": "#000E2F"
+  },
+  "west-umbc-retrievers": {
+    "bg": "#FFC20E",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "west-miami-redhawks": {
+    "bg": "#B61E2E",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "west-iowa-state-cyclones": {
+    "bg": "#B61E2E",
+    "headerText": "#F1BE48",
+    "cellText": "#F1BE48"
+  },
+  "west-illinois-fighting-illini": {
+    "bg": "#13294B",
+    "headerText": "#E84A27",
+    "cellText": "#E84A27"
+  },
+  "west-kansas-jayhawks": {
+    "bg": "#0051BA",
+    "headerText": "#FFC82D",
+    "cellText": "#FFC82D"
+  },
+  "west-cleveland-state-vikings": {
+    "bg": "#006747",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "west-south-florida-bulls": {
+    "bg": "#006747",
+    "headerText": "#CFC493",
+    "cellText": "#CFC493"
+  },
+  "west-vanderbilt-commodores": {
+    "bg": "#000000",
+    "headerText": "#866D4B",
+    "cellText": "#FFFFFF"
+  },
+  "west-texas-longhorns": {
+    "bg": "#BF5700",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "west-st-johns-red-storm": {
+    "bg": "#BA0C2F",
+    "headerText": "#041C2C",
+    "cellText": "#041C2C"
+  },
+  "midwest-maryland-terrapins": {
+    "bg": "#E03A3E",
+    "headerText": "#FFD520",
+    "cellText": "#FFD520"
+  },
+  "midwest-purdue-boilermakers": {
+    "bg": "#CEB888",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  },
+  "midwest-lehigh-mountain-hawks": {
+    "bg": "#653600",
+    "headerText": "#FFD24F",
+    "cellText": "#FFD24F"
+  },
+  "midwest-ucf-knights": {
+    "bg": "#000000",
+    "headerText": "#FFC904",
+    "cellText": "#BA9B37"
+  },
+  "midwest-saint-louis-billikens": {
+    "bg": "#003DA5",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-high-point-panthers": {
+    "bg": "#330072",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-liu-sharks": {
+    "bg": "#69B3E7",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-houston-cougars": {
+    "bg": "#C8102E",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-arizona-state-sun-devils": {
+    "bg": "#8C1D40",
+    "headerText": "#FFD520",
+    "cellText": "#FFD520"
+  },
+  "midwest-wisconsin-badgers": {
+    "bg": "#C5050C",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-duke-blue-devils": {
+    "bg": "#003087",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-alabama-crimson-tide": {
+    "bg": "#9E1B32",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-kentucky-wildcats": {
+    "bg": "#0033A0",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-texas-a&m-aggies": {
+    "bg": "#500000",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-ohio-state-buckeyes": {
+    "bg": "#BB0000",
+    "headerText": "#FFFFFF",
+    "cellText": "#FFFFFF"
+  },
+  "midwest-iowa-hawkeyes": {
+    "bg": "#FFCD00",
+    "headerText": "#000000",
+    "cellText": "#000000"
+  }
+}

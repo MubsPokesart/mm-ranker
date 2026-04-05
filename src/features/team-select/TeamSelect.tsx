@@ -6,14 +6,22 @@ interface TeamSelectProps {
   regionId: RegionId;
   teams: Team[];
   onSelect: (teamId: string | null) => void;
+  onBack: () => void;
 }
 
-export function TeamSelect({ regionId, teams, onSelect }: TeamSelectProps) {
+export function TeamSelect({ regionId, teams, onSelect, onBack }: TeamSelectProps) {
   return (
-    <div className="team-select">
+    <main className="team-select">
+      <button className="team-select-back" onClick={onBack}>← Regions</button>
       <h2 className="team-select-title">{REGION_DISPLAY_NAMES[regionId]}</h2>
       <p className="team-select-prompt">Do you have a team in this region?</p>
-      <div className="team-select-list">
+      <div className="team-select-grid">
+        <button
+          className="team-select-option team-select-none"
+          onClick={() => onSelect(null)}
+        >
+          No, I don't
+        </button>
         {teams.map((team) => (
           <button
             key={team.id}
@@ -23,13 +31,7 @@ export function TeamSelect({ regionId, teams, onSelect }: TeamSelectProps) {
             {team.name}
           </button>
         ))}
-        <button
-          className="team-select-option team-select-none"
-          onClick={() => onSelect(null)}
-        >
-          No, I don't
-        </button>
       </div>
-    </div>
+    </main>
   );
 }

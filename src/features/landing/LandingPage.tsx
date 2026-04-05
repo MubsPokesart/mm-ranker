@@ -17,24 +17,24 @@ function formatProgress(state: RegionState): string {
 
 export function LandingPage({ regionStates, onSelectRegion }: LandingPageProps) {
   return (
-    <div className="landing-page">
+    <main className="landing-page">
       <h1 className="landing-title">Draft 78 March Madness Ranker</h1>
-      <div className="region-grid">
+      <nav className="region-grid" aria-label="Regions">
         {REGION_IDS.map((regionId) => (
           <button
             key={regionId}
-            className="region-card"
+            className={`region-card ${regionStates[regionId].comparisons.length > 0 || regionStates[regionId].rankingsRevealed ? "region-card--active" : ""}`}
             onClick={() => onSelectRegion(regionId)}
           >
             <div className="region-card-name">
               {REGION_DISPLAY_NAMES[regionId]}
             </div>
-            <div className="region-card-progress">
+            <div className={`region-card-progress ${regionStates[regionId].rankingsRevealed ? "region-card-progress--done" : ""}`}>
               {formatProgress(regionStates[regionId])}
             </div>
           </button>
         ))}
-      </div>
-    </div>
+      </nav>
+    </main>
   );
 }

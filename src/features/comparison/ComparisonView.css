@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
   padding-top: var(--spacing-lg);
 }
 .comparison-header {
@@ -10,32 +10,34 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 900px;
 }
 .comparison-region-name {
-  font-size: 20px;
+  font-size: clamp(16px, 4vw, 20px);
   font-weight: 600;
 }
 .comparison-progress {
   font-size: 14px;
   color: var(--color-text-muted);
 }
-.comparison-matchup {
+.comparison-cards {
   display: flex;
-  align-items: flex-start;
-  gap: var(--spacing-lg);
-  flex-wrap: wrap;
+  gap: 0;
+  width: 100%;
+  max-width: 700px;
   justify-content: center;
 }
 .comparison-actions {
   display: flex;
   gap: var(--spacing-md);
-  margin-top: var(--spacing-md);
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .comparison-action-button {
   padding: var(--spacing-sm) var(--spacing-lg);
   border-radius: var(--radius-md);
   font-size: 14px;
+  min-height: 44px;
 }
 .comparison-rankings-button {
   background: var(--color-accent);
@@ -45,18 +47,34 @@
   background: var(--color-accent-hover);
 }
 .comparison-reset-button {
-  background: var(--color-surface-raised);
+  background: var(--color-active);
   color: var(--color-text-muted);
 }
 .comparison-reset-button:hover {
-  background: var(--color-surface);
+  background: var(--color-selection);
 }
 .comparison-back-button {
   background: none;
   color: var(--color-text-muted);
   font-size: 14px;
+  min-height: 44px;
   padding: var(--spacing-xs) var(--spacing-sm);
 }
 .comparison-back-button:hover {
   color: var(--color-text);
+}
+
+@media (max-width: 480px) {
+  .comparison-header {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    text-align: center;
+  }
+  .comparison-actions {
+    gap: var(--spacing-sm);
+  }
+  .comparison-action-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 13px;
+  }
 }

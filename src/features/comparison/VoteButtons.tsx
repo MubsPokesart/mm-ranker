@@ -3,28 +3,33 @@ import "./VoteButtons.css";
 
 interface VoteButtonsProps {
   onVote: (score: number) => void;
+  leftTeamName: string;
+  rightTeamName: string;
 }
 
 const VOTE_OPTIONS = [
-  { label: "Strongly prefer left", score: VOTE_SCORES.STRONGLY_LEFT },
-  { label: "Slightly prefer left", score: VOTE_SCORES.SLIGHTLY_LEFT },
-  { label: "Even", score: VOTE_SCORES.EVEN },
-  { label: "Slightly prefer right", score: VOTE_SCORES.SLIGHTLY_RIGHT },
-  { label: "Strongly prefer right", score: VOTE_SCORES.STRONGLY_RIGHT },
+  { label: "1", ariaTemplate: "Strongly prefer {left}", score: VOTE_SCORES.STRONGLY_LEFT },
+  { label: "2", ariaTemplate: "Slightly prefer {left}", score: VOTE_SCORES.SLIGHTLY_LEFT },
+  { label: "3", ariaTemplate: "Teams are even", score: VOTE_SCORES.EVEN },
+  { label: "4", ariaTemplate: "Slightly prefer {right}", score: VOTE_SCORES.SLIGHTLY_RIGHT },
+  { label: "5", ariaTemplate: "Strongly prefer {right}", score: VOTE_SCORES.STRONGLY_RIGHT },
 ] as const;
 
-export function VoteButtons({ onVote }: VoteButtonsProps) {
+export function VoteButtons({ onVote, leftTeamName, rightTeamName }: VoteButtonsProps) {
   return (
-    <div className="vote-buttons">
+    <div className="vote-buttons" role="group" aria-label="Vote on which team you prefer">
+      <span className="vote-label">Prefer left</span>
       {VOTE_OPTIONS.map((option) => (
         <button
           key={option.label}
-          className="vote-button"
-          onClick={() => onVote(option.score)}
+          className="vote-circle"
+          onClick={(e) => { (e.target as HTMLElement).blur(); onVote(option.score); }}
+          aria-label={option.ariaTemplate.replace("{left}", leftTeamName).replace("{right}", rightTeamName)}
         >
           {option.label}
         </button>
       ))}
+      <span className="vote-label">Prefer right</span>
     </div>
   );
 }

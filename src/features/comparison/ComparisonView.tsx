@@ -4,12 +4,20 @@ import type { RegionId } from "../../config/constants";
 import {
   REGION_DISPLAY_NAMES,
   MIN_COMPARISONS_TO_UNLOCK,
-  TEAM_HEADER_COLORS,
 } from "../../config/constants";
 import { selectMatchup, updateRatings, makePairKey } from "../../engine/elo";
 import { TeamCard } from "./TeamCard";
 import { VoteButtons } from "./VoteButtons";
+import teamColorsData from "../../config/team-colors.json";
 import "./ComparisonView.css";
+
+const teamColors = teamColorsData as Record<string, { bg: string; headerText: string; cellText: string }>;
+
+const DEFAULT_COLORS = { bg: "#1c1c2e", headerText: "#ffffff", cellText: "#cccccc" };
+
+function getTeamColors(teamId: string) {
+  return teamColors[teamId] ?? DEFAULT_COLORS;
+}
 
 interface ComparisonViewProps {
   regionId: RegionId;
@@ -30,7 +38,7 @@ export function ComparisonView({
   onReset,
   onBack,
 }: ComparisonViewProps) {
-  const teamIds = teams.map((t) => t.id);
+  const teamIds = useMemo(() => teams.map((t) => t.id), [teams]);
   const teamMap = useMemo(
     () => new Map(teams.map((t) => [t.id, t])),
     [teams]
@@ -88,14 +96,20 @@ export function ComparisonView({
 
   if (!matchup) {
     return (
-      <div className="comparison-view">
-        <p>No more matchups available.</p>
+      <main className="comparison-view">
+        <h2 className="comparison-region-name">All matchups completed</h2>
+        <p style={{ color: "var(--color-text-muted)" }}>
+          You've compared every available pair in this region.
+        </p>
         {canReveal && (
           <button className="comparison-action-button comparison-rankings-button" onClick={onGoToRankings}>
             Go to Rankings
           </button>
         )}
-      </div>
+        <button className="comparison-action-button comparison-reset-button" onClick={onReset}>
+          Reset
+        </button>
+      </main>
     );
   }
 
@@ -103,12 +117,9 @@ export function ComparisonView({
   const rightTeam = teamMap.get(matchup.rightTeamId);
   if (!leftTeam || !rightTeam) return null;
 
-  const leftColorIndex = teams.indexOf(leftTeam) % TEAM_HEADER_COLORS[regionId].length;
-  const rightColorIndex = teams.indexOf(rightTeam) % TEAM_HEADER_COLORS[regionId].length;
-
   return (
-    <div className="comparison-view">
-      <div className="comparison-header">
+    <main className="comparison-view">
+      <nav className="comparison-header" aria-label="Navigation">
         <button className="comparison-back-button" onClick={onBack}>
           ← Regions
         </button>
@@ -116,13 +127,14 @@ export function ComparisonView({
         <span className="comparison-progress">
           {state.comparisons.length} / {MIN_COMPARISONS_TO_UNLOCK} comparisons
         </span>
-      </div>
+      </nav>
 
-      <div className="comparison-matchup">
-        <TeamCard team={leftTeam} headerColor={TEAM_HEADER_COLORS[regionId][leftColorIndex]!} />
-        <VoteButtons onVote={handleVote} />
-        <TeamCard team={rightTeam} headerColor={TEAM_HEADER_COLORS[regionId][rightColorIndex]!} />
-      </div>
+      <section className="comparison-cards" aria-label="Team comparison">
+        <TeamCard team={leftTeam} colors={getTeamColors(leftTeam.id)} />
+        <TeamCard team={rightTeam} colors={getTeamColors(rightTeam.id)} />
+      </section>
+
+      <VoteButtons onVote={handleVote} leftTeamName={leftTeam.name} rightTeamName={rightTeam.name} />
 
       <div className="comparison-actions">
         {canReveal && (
@@ -134,6 +146,6 @@ export function ComparisonView({
           Reset
         </button>
       </div>
-    </div>
+    </main>
   );
 }

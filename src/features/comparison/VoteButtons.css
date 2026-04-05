@@ -1,27 +1,47 @@
 .vote-buttons {
   display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-md);
+  gap: clamp(4px, 1.5vw, 8px);
+  padding: var(--spacing-md) 0;
 }
 
-.vote-button {
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-md);
-  background: var(--color-surface-raised);
+.vote-label {
+  font-size: 12px;
+  color: var(--color-text-dim);
+  white-space: nowrap;
+}
+
+.vote-circle {
+  width: clamp(36px, 8vw, 44px);
+  height: clamp(36px, 8vw, 44px);
+  border-radius: 50%;
+  background: var(--color-active);
   color: var(--color-text);
   font-size: 14px;
-  width: 200px;
-  text-align: center;
-  transition: background-color 0.15s ease, transform 0.1s ease;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, transform 0.1s ease, color 0.15s ease;
+  flex-shrink: 0;
 }
 
-.vote-button:hover {
+.vote-circle:hover {
   background: var(--color-accent);
+  color: #fff;
 }
 
-.vote-button:active {
-  transform: scale(0.97);
+.vote-circle:active {
+  transform: scale(0.93);
+}
+
+.vote-circle:focus {
+  outline: none;
+}
+
+@media (max-width: 400px) {
+  .vote-label {
+    display: none;
+  }
 }

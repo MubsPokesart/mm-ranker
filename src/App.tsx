@@ -110,6 +110,7 @@ export function App() {
           regionId={viewState.regionId as RegionId}
           teams={currentRegion.teams}
           onSelect={handleTeamSelect}
+          onBack={handleBack}
         />
       );
 

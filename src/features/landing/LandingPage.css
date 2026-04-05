@@ -6,7 +6,7 @@
   padding-top: var(--spacing-xl);
 }
 .landing-title {
-  font-size: 28px;
+  font-size: clamp(20px, 5vw, 28px);
   font-weight: 700;
   text-align: center;
 }
@@ -29,12 +29,32 @@
   background: var(--color-surface-raised);
   transform: translateY(-2px);
 }
+@media (hover: none) {
+  .region-card:hover {
+    transform: none;
+  }
+}
 .region-card-name {
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 18px);
   font-weight: 600;
   margin-bottom: var(--spacing-sm);
 }
 .region-card-progress {
   font-size: 13px;
   color: var(--color-text-muted);
+}
+.region-card-progress--done {
+  color: var(--color-positive);
+}
+.region-card--active {
+  border-color: var(--color-border-light);
+}
+
+@media (max-width: 400px) {
+  .region-grid {
+    gap: var(--spacing-sm);
+  }
+  .region-card {
+    padding: var(--spacing-md);
+  }
 }
