@@ -1,0 +1,40 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+}
+.landing-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.region-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  width: 100%;
+  max-width: 600px;
+}
+.region-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+.region-card:hover {
+  background: var(--color-surface-raised);
+  transform: translateY(-2px);
+}
+.region-card-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+.region-card-progress {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
