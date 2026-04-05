@@ -1,0 +1,56 @@
+.team-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  font-family: var(--font-sheet);
+  font-size: 13px;
+  color: var(--color-text-muted);
+  width: 300px;
+  flex-shrink: 0;
+}
+.team-card-header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+.team-card-header-name {
+  padding: var(--spacing-xs) 6px;
+  font-weight: bold;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.team-card-header-label {
+  padding: var(--spacing-xs) 6px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ddd;
+  text-align: center;
+}
+.team-card-header-budget {
+  padding: var(--spacing-xs) 6px;
+  color: #fff;
+  text-align: right;
+  min-width: 30px;
+}
+.team-card-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  border-bottom: 1px solid var(--color-border);
+}
+.team-card-row:last-child {
+  border-bottom: none;
+}
+.team-card-player-name {
+  padding: 3px 6px;
+  border-right: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+.team-card-player-year {
+  padding: 3px 6px;
+  border-right: 1px solid var(--color-border);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+.team-card-player-price {
+  padding: 3px 6px;
+  text-align: right;
+  min-width: 30px;
+  color: var(--color-text-muted);
+}
