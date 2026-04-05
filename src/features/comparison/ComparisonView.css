@@ -84,6 +84,9 @@
     gap: var(--spacing-xs);
     text-align: center;
   }
+  .comparison-progress {
+    align-items: center;
+  }
   .comparison-actions {
     gap: var(--spacing-sm);
   }
