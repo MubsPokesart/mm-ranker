@@ -1,0 +1,3676 @@
+{
+  "regions": {
+    "east": {
+      "id": "east",
+      "name": "Draft 78 East",
+      "teams": [
+        {
+          "id": "east-arizona-wildcats",
+          "name": "Arizona Wildcats",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Steve Nash",
+              "year": "06-07",
+              "price": 27
+            },
+            {
+              "name": "Joe Dumars",
+              "year": "90-91",
+              "price": 11
+            },
+            {
+              "name": "Larry Bird",
+              "year": "85-86",
+              "price": 38
+            },
+            {
+              "name": "Gus Johnson",
+              "year": "69-70",
+              "price": 2
+            },
+            {
+              "name": "Patrick Ewing",
+              "year": "89-90",
+              "price": 11
+            },
+            {
+              "name": "Mookie Blaylock",
+              "year": "96-97",
+              "price": 1
+            },
+            {
+              "name": "Phil Smith",
+              "year": "75-76",
+              "price": 1
+            },
+            {
+              "name": "Walter Davis",
+              "year": "78-79",
+              "price": 2
+            },
+            {
+              "name": "Jamaal Wilkes",
+              "year": "79-80",
+              "price": 2
+            },
+            {
+              "name": "Darryl Dawkins",
+              "year": "80-81",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "east-hawaii-rainbow-warriors",
+          "name": "Hawaii Rainbow Warriors",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Mike Conley",
+              "year": "16-17",
+              "price": 6
+            },
+            {
+              "name": "Jerry West",
+              "year": "67-68",
+              "price": 35
+            },
+            {
+              "name": "Billy Cunningham",
+              "year": "69-70",
+              "price": 3
+            },
+            {
+              "name": "Kevin Garnett",
+              "year": "03-04",
+              "price": 38
+            },
+            {
+              "name": "Moses Malone",
+              "year": "82-83",
+              "price": 11
+            },
+            {
+              "name": "Danny Ainge",
+              "year": "87-88",
+              "price": 0
+            },
+            {
+              "name": "Kendall Gill",
+              "year": "96-97",
+              "price": -1
+            },
+            {
+              "name": "Robert Covington",
+              "year": "17-18",
+              "price": 2
+            },
+            {
+              "name": "LaMarcus Aldridge",
+              "year": "17-18",
+              "price": 0
+            },
+            {
+              "name": "Kristaps Porzingis",
+              "year": "23-24",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-washington-huskies",
+          "name": "Washington Huskies",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Michael Jordan",
+              "year": "90-91",
+              "price": 45
+            },
+            {
+              "name": "Scottie Pippen",
+              "year": "93-94",
+              "price": 22
+            },
+            {
+              "name": "Rick Barry",
+              "year": "74-75",
+              "price": 10
+            },
+            {
+              "name": "Karl-Anthony Towns",
+              "year": "24-25",
+              "price": 3
+            },
+            {
+              "name": "Marc Gasol",
+              "year": "12-13",
+              "price": 11
+            },
+            {
+              "name": "Kenny Anderson",
+              "year": "96-97",
+              "price": 0
+            },
+            {
+              "name": "Tyrese Maxey",
+              "year": "23-24",
+              "price": 2
+            },
+            {
+              "name": "Dick Van Arsdale",
+              "year": "69-70",
+              "price": 1
+            },
+            {
+              "name": "Bob Pettit",
+              "year": "58-59",
+              "price": 1
+            },
+            {
+              "name": "Robert Williams III",
+              "year": "21-22",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "east-queens-royals",
+          "name": "Queens Royals",
+          "budget": 95,
+          "players": [
+            {
+              "name": "LeBron James",
+              "year": "12-13",
+              "price": 42
+            },
+            {
+              "name": "Danny Green",
+              "year": "14-15",
+              "price": 6
+            },
+            {
+              "name": "Jimmy Butler",
+              "year": "16-17",
+              "price": 15
+            },
+            {
+              "name": "Bob McAdoo",
+              "year": "74-75",
+              "price": 19
+            },
+            {
+              "name": "Artis Gilmore",
+              "year": "74-75",
+              "price": 5
+            },
+            {
+              "name": "Terrell Brandon",
+              "year": "95-96",
+              "price": 4
+            },
+            {
+              "name": "Kentavious Caldwell-Pope",
+              "year": "22-23",
+              "price": -1
+            },
+            {
+              "name": "Steve Smith",
+              "year": "97-98",
+              "price": 3
+            },
+            {
+              "name": "Danilo Gallinari",
+              "year": "18-19",
+              "price": -1
+            },
+            {
+              "name": "Alvan Adams",
+              "year": "79-80",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "east-tennessee-volunteers",
+          "name": "Tennessee Volunteers",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Russell Westbrook",
+              "year": "16-17",
+              "price": 11
+            },
+            {
+              "name": "Klay Thompson",
+              "year": "15-16",
+              "price": 18
+            },
+            {
+              "name": "Kawhi Leonard",
+              "year": "16-17",
+              "price": 34
+            },
+            {
+              "name": "Chet Holmgren",
+              "year": "24-25",
+              "price": 4
+            },
+            {
+              "name": "Joel Embiid",
+              "year": "23-24",
+              "price": 20
+            },
+            {
+              "name": "Kemba Walker",
+              "year": "18-19",
+              "price": 2
+            },
+            {
+              "name": "Kirk Hinrich",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Scottie Barnes",
+              "year": "24-25",
+              "price": 1
+            },
+            {
+              "name": "Connie Hawkins",
+              "year": "67-68",
+              "price": 2
+            },
+            {
+              "name": "Ivica Zubac",
+              "year": "24-25",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-wright-state-raiders",
+          "name": "Wright State Raiders",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kyrie Irving",
+              "year": "20-21",
+              "price": 10
+            },
+            {
+              "name": "Kobe Bryant",
+              "year": "02-03",
+              "price": 34
+            },
+            {
+              "name": "Khris Middleton",
+              "year": "19-20",
+              "price": 7
+            },
+            {
+              "name": "Bobby Jones",
+              "year": "76-77",
+              "price": 10
+            },
+            {
+              "name": "Victor Wembanyama",
+              "year": "24-25",
+              "price": 22
+            },
+            {
+              "name": "Sam Cassell",
+              "year": "03-04",
+              "price": 1
+            },
+            {
+              "name": "Doug Christie",
+              "year": "02-03",
+              "price": 5
+            },
+            {
+              "name": "Boris Diaw",
+              "year": "05-06",
+              "price": 2
+            },
+            {
+              "name": "Gerald Wallace",
+              "year": "09-10",
+              "price": 3
+            },
+            {
+              "name": "Brad Miller",
+              "year": "03-04",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-ucla-bruins",
+          "name": "UCLA Bruins",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Isiah Thomas",
+              "year": "84-85",
+              "price": 12
+            },
+            {
+              "name": "Reggie Miller",
+              "year": "93-94",
+              "price": 22
+            },
+            {
+              "name": "John Havlicek",
+              "year": "70-71",
+              "price": 15
+            },
+            {
+              "name": "Chris Bosh",
+              "year": "12-13",
+              "price": 7
+            },
+            {
+              "name": "Kareem Abdul-Jabbar",
+              "year": "76-77",
+              "price": 35
+            },
+            {
+              "name": "Fat Lever",
+              "year": "87-88",
+              "price": 1
+            },
+            {
+              "name": "Jason Terry",
+              "year": "06-07",
+              "price": 2
+            },
+            {
+              "name": "Roger Brown",
+              "year": "69-70",
+              "price": 1
+            },
+            {
+              "name": "Jerome Kersey",
+              "year": "90-91",
+              "price": -1
+            },
+            {
+              "name": "Arvydas Sabonis",
+              "year": "96-97",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-michigan-wolverines",
+          "name": "Michigan Wolverines",
+          "budget": 92,
+          "players": [
+            {
+              "name": "Kyle Lowry",
+              "year": "16-17",
+              "price": 13
+            },
+            {
+              "name": "Devin Booker",
+              "year": "22-23",
+              "price": 11
+            },
+            {
+              "name": "Clyde Drexler",
+              "year": "91-92",
+              "price": 19
+            },
+            {
+              "name": "Kevin Durant",
+              "year": "16-17",
+              "price": 35
+            },
+            {
+              "name": "Alonzo Mourning",
+              "year": "99-00",
+              "price": 10
+            },
+            {
+              "name": "Doc Rivers",
+              "year": "87-88",
+              "price": 0
+            },
+            {
+              "name": "Paul Westphal",
+              "year": "78-79",
+              "price": 2
+            },
+            {
+              "name": "Josh Howard",
+              "year": "06-07",
+              "price": 2
+            },
+            {
+              "name": "Paolo Banchero",
+              "year": "23-24",
+              "price": -1
+            },
+            {
+              "name": "Antonio McDyess",
+              "year": "97-98",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-santa-clara-broncos",
+          "name": "Santa Clara Broncos",
+          "budget": 91,
+          "players": [
+            {
+              "name": "Mark Price",
+              "year": "91-92",
+              "price": 19
+            },
+            {
+              "name": "Penny Hardaway",
+              "year": "95-96",
+              "price": 22
+            },
+            {
+              "name": "OG Anunoby",
+              "year": "24-25",
+              "price": 3
+            },
+            {
+              "name": "Anthony Davis",
+              "year": "19-20",
+              "price": 24
+            },
+            {
+              "name": "Willis Reed",
+              "year": "69-70",
+              "price": 13
+            },
+            {
+              "name": "Jamal Murray",
+              "year": "22-23",
+              "price": 3
+            },
+            {
+              "name": "Jon McGlocklin",
+              "year": "70-71",
+              "price": 2
+            },
+            {
+              "name": "Nicolas Batum",
+              "year": "13-14",
+              "price": 2
+            },
+            {
+              "name": "Herb Jones",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Tyson Chandler",
+              "year": "11-12",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "east-georgia-tech-yellow-jackets",
+          "name": "Georgia Tech Yellow Jackets",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Stephen Curry",
+              "year": "15-16",
+              "price": 37
+            },
+            {
+              "name": "Wesley Matthews",
+              "year": "14-15",
+              "price": 1
+            },
+            {
+              "name": "Chet Walker",
+              "year": "71-72",
+              "price": 3
+            },
+            {
+              "name": "Charles Barkley",
+              "year": "92-93",
+              "price": 19
+            },
+            {
+              "name": "Bill Walton",
+              "year": "77-78",
+              "price": 29
+            },
+            {
+              "name": "Ja Morant",
+              "year": "21-22",
+              "price": 2
+            },
+            {
+              "name": "Randy Smith",
+              "year": "75-76",
+              "price": 1
+            },
+            {
+              "name": "Glen Rice",
+              "year": "96-97",
+              "price": 1
+            },
+            {
+              "name": "Sean Elliot",
+              "year": "95-96",
+              "price": -1
+            },
+            {
+              "name": "Ben Wallace",
+              "year": "03-04",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "east-smu-mustangs",
+          "name": "SMU Mustangs",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Magic Johnson",
+              "year": "86-87",
+              "price": 36
+            },
+            {
+              "name": "Jeff Hornacek",
+              "year": "91-92",
+              "price": 6
+            },
+            {
+              "name": "Bob Dandridge",
+              "year": "78-79",
+              "price": 6
+            },
+            {
+              "name": "Andrei Kirilenko",
+              "year": "03-04",
+              "price": 9
+            },
+            {
+              "name": "David Robinson",
+              "year": "94-95",
+              "price": 31
+            },
+            {
+              "name": "George Hill",
+              "year": "16-17",
+              "price": 3
+            },
+            {
+              "name": "Mike Miller",
+              "year": "06-07",
+              "price": -1
+            },
+            {
+              "name": "Scott Wedman",
+              "year": "78-79",
+              "price": 2
+            },
+            {
+              "name": "Sam Perkins",
+              "year": "94-95",
+              "price": 2
+            },
+            {
+              "name": "Yao Ming",
+              "year": "06-07",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "east-vcu-rams",
+          "name": "VCU Rams",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Gary Payton",
+              "year": "97-98",
+              "price": 11
+            },
+            {
+              "name": "Bradley Beal",
+              "year": "20-21",
+              "price": 6
+            },
+            {
+              "name": "Jayson Tatum",
+              "year": "24-25",
+              "price": 23
+            },
+            {
+              "name": "Paul Millsap",
+              "year": "14-15",
+              "price": 7
+            },
+            {
+              "name": "Hakeem Olajuwon",
+              "year": "92-93",
+              "price": 36
+            },
+            {
+              "name": "Baron Davis",
+              "year": "06-07",
+              "price": 4
+            },
+            {
+              "name": "Latrell Sprewell",
+              "year": "93-94",
+              "price": 5
+            },
+            {
+              "name": "Franz Wagner",
+              "year": "23-24",
+              "price": 1
+            },
+            {
+              "name": "Spencer Haywood",
+              "year": "72-73",
+              "price": 0
+            },
+            {
+              "name": "Andrew Bogut",
+              "year": "09-10",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "east-byu-cougars",
+          "name": "BYU Cougars",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Dwyane Wade",
+              "year": "08-09",
+              "price": 32
+            },
+            {
+              "name": "Derrick White",
+              "year": "24-25",
+              "price": 6
+            },
+            {
+              "name": "Jaylen Brown",
+              "year": "23-24",
+              "price": 9
+            },
+            {
+              "name": "Shawn Kemp",
+              "year": "95-96",
+              "price": 14
+            },
+            {
+              "name": "Nikola Jokic",
+              "year": "24-25",
+              "price": 32
+            },
+            {
+              "name": "Isaiah Thomas",
+              "year": "16-17",
+              "price": 1
+            },
+            {
+              "name": "Joe Harris",
+              "year": "20-21",
+              "price": -1
+            },
+            {
+              "name": "Michael Porter Jr.",
+              "year": "23-24",
+              "price": 1
+            },
+            {
+              "name": "Josh Smith",
+              "year": "09-10",
+              "price": 2
+            },
+            {
+              "name": "Bo Outlaw",
+              "year": "99-00",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "east-gonzaga-bulldogs",
+          "name": "Gonzaga Bulldogs",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Luka Doncic",
+              "year": "23-24",
+              "price": 23
+            },
+            {
+              "name": "Paul George",
+              "year": "18-19",
+              "price": 20
+            },
+            {
+              "name": "Peja Stojakovic",
+              "year": "03-04",
+              "price": 10
+            },
+            {
+              "name": "Tim Duncan",
+              "year": "02-03",
+              "price": 33
+            },
+            {
+              "name": "Rudy Gobert",
+              "year": "20-21",
+              "price": 6
+            },
+            {
+              "name": "Trae Young",
+              "year": "21-22",
+              "price": 2
+            },
+            {
+              "name": "Richie Guerin",
+              "year": "61-62",
+              "price": -1
+            },
+            {
+              "name": "Bob Love",
+              "year": "70-71",
+              "price": 0
+            },
+            {
+              "name": "Detlef Schrempf",
+              "year": "94-95",
+              "price": 2
+            },
+            {
+              "name": "Serge Ibaka",
+              "year": "13-14",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "east-siena-saints",
+          "name": "Siena Saints",
+          "budget": 95,
+          "players": [
+            {
+              "name": "John Stockton",
+              "year": "90-91",
+              "price": 10
+            },
+            {
+              "name": "Tracy McGrady",
+              "year": "02-03",
+              "price": 28
+            },
+            {
+              "name": "Julius Erving",
+              "year": "75-76",
+              "price": 29
+            },
+            {
+              "name": "Larry Nance Sr.",
+              "year": "91-92",
+              "price": 14
+            },
+            {
+              "name": "Jack Sikma",
+              "year": "81-82",
+              "price": 5
+            },
+            {
+              "name": "Tiny Archibald",
+              "year": "72-73",
+              "price": 0
+            },
+            {
+              "name": "Kerry Kittles",
+              "year": "01-02",
+              "price": 0
+            },
+            {
+              "name": "Kyle Korver",
+              "year": "14-15",
+              "price": 4
+            },
+            {
+              "name": "David West",
+              "year": "12-13",
+              "price": 4
+            },
+            {
+              "name": "Wes Unseld",
+              "year": "68-69",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "east-michigan-state-spartans",
+          "name": "Michigan State Spartans",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Chris Paul",
+              "year": "14-15",
+              "price": 32
+            },
+            {
+              "name": "Reggie Lewis",
+              "year": "91-92",
+              "price": 4
+            },
+            {
+              "name": "Gordon Hayward",
+              "year": "16-17",
+              "price": 7
+            },
+            {
+              "name": "Horace Grant",
+              "year": "91-92",
+              "price": 5
+            },
+            {
+              "name": "Shaquille O'Neal",
+              "year": "99-00",
+              "price": 39
+            },
+            {
+              "name": "De'Aaron Fox",
+              "year": "22-23",
+              "price": 2
+            },
+            {
+              "name": "Michael Redd",
+              "year": "05-06",
+              "price": 1
+            },
+            {
+              "name": "Elgin Baylor",
+              "year": "62-63",
+              "price": 3
+            },
+            {
+              "name": "Hedo Turkoglu",
+              "year": "07-08",
+              "price": 1
+            },
+            {
+              "name": "Brook Lopez",
+              "year": "22-23",
+              "price": 1
+            }
+          ]
+        }
+      ]
+    },
+    "south": {
+      "id": "south",
+      "name": "Draft 78 South",
+      "teams": [
+        {
+          "id": "south-tennessee-state-tigers",
+          "name": "Tennessee State Tigers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Magic Johnson",
+              "year": "86-87",
+              "price": 36
+            },
+            {
+              "name": "Jimmy Butler",
+              "year": "22-23",
+              "price": 21
+            },
+            {
+              "name": "Khris Middleton",
+              "year": "19-20",
+              "price": 8
+            },
+            {
+              "name": "Horace Grant",
+              "year": "91-92",
+              "price": 4
+            },
+            {
+              "name": "Patrick Ewing",
+              "year": "89-90",
+              "price": 16
+            },
+            {
+              "name": "Mike Conley",
+              "year": "16-17",
+              "price": 7
+            },
+            {
+              "name": "Byron Scott",
+              "year": "87-88",
+              "price": 2
+            },
+            {
+              "name": "Danilo Gallinari",
+              "year": "18-19",
+              "price": -2
+            },
+            {
+              "name": "Terry Cummings",
+              "year": "84-85",
+              "price": 0
+            },
+            {
+              "name": "Tyson Chandler",
+              "year": "11-12",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "south-georgia-bulldogs",
+          "name": "Georgia Bulldogs",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Stephen Curry",
+              "year": "15-16",
+              "price": 37
+            },
+            {
+              "name": "Ron Harper",
+              "year": "88-89",
+              "price": 1
+            },
+            {
+              "name": "Rick Barry",
+              "year": "74-75",
+              "price": 10
+            },
+            {
+              "name": "Larry Nance Sr.",
+              "year": "91-92",
+              "price": 12
+            },
+            {
+              "name": "Joel Embiid",
+              "year": "23-24",
+              "price": 19
+            },
+            {
+              "name": "John Wall",
+              "year": "16-17",
+              "price": 3
+            },
+            {
+              "name": "Zach LaVine",
+              "year": "20-21",
+              "price": 2
+            },
+            {
+              "name": "Shane Battier",
+              "year": "06-07",
+              "price": 7
+            },
+            {
+              "name": "Alvan Adams",
+              "year": "75-76",
+              "price": 3
+            },
+            {
+              "name": "Steven Adams",
+              "year": "19-20",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-north-carolina-tar-heels",
+          "name": "North Carolina Tar Heels",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Walt Frazier",
+              "year": "71-72",
+              "price": 18
+            },
+            {
+              "name": "Michael Jordan",
+              "year": "90-91",
+              "price": 45
+            },
+            {
+              "name": "Dan Majerle",
+              "year": "92-93",
+              "price": 5
+            },
+            {
+              "name": "Andrei Kirilenko",
+              "year": "03-04",
+              "price": 12
+            },
+            {
+              "name": "Marc Gasol",
+              "year": "12-13",
+              "price": 8
+            },
+            {
+              "name": "Sleepy Floyd",
+              "year": "86-87",
+              "price": 1
+            },
+            {
+              "name": "Sam Jones",
+              "year": "64-65",
+              "price": 2
+            },
+            {
+              "name": "Brent Barry",
+              "year": "01-02",
+              "price": 1
+            },
+            {
+              "name": "Derrick Coleman",
+              "year": "93-94",
+              "price": 0
+            },
+            {
+              "name": "Dikembe Mutombo",
+              "year": "96-97",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "south-villanova-wildcats",
+          "name": "Villanova Wildcats",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Terry Porter",
+              "year": "90-91",
+              "price": 17
+            },
+            {
+              "name": "George Gervin",
+              "year": "78-79",
+              "price": 8
+            },
+            {
+              "name": "LeBron James",
+              "year": "12-13",
+              "price": 42
+            },
+            {
+              "name": "Dirk Nowitzki",
+              "year": "05-06",
+              "price": 23
+            },
+            {
+              "name": "Nate Thurmond",
+              "year": "68-69",
+              "price": 2
+            },
+            {
+              "name": "LaMelo Ball",
+              "year": "21-22",
+              "price": 0
+            },
+            {
+              "name": "Kerry Kittles",
+              "year": "02-03",
+              "price": 1
+            },
+            {
+              "name": "Richard Jefferson",
+              "year": "03-04",
+              "price": 0
+            },
+            {
+              "name": "Elton Brand",
+              "year": "05-06",
+              "price": 1
+            },
+            {
+              "name": "Brad Daugherty",
+              "year": "91-92",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "south-tcu-horned-frogs",
+          "name": "TCU Horned Frogs",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Chris Paul",
+              "year": "14-15",
+              "price": 31
+            },
+            {
+              "name": "Mitch Richmond",
+              "year": "96-97",
+              "price": 12
+            },
+            {
+              "name": "Latrell Sprewell",
+              "year": "93-94",
+              "price": 2
+            },
+            {
+              "name": "Gus Johnson",
+              "year": "69-70",
+              "price": 2
+            },
+            {
+              "name": "Shaquille O'Neal",
+              "year": "99-00",
+              "price": 37
+            },
+            {
+              "name": "Maurice Cheeks",
+              "year": "82-83",
+              "price": 1
+            },
+            {
+              "name": "Bradley Beal",
+              "year": "20-21",
+              "price": 6
+            },
+            {
+              "name": "Nicolas Batum",
+              "year": "13-14",
+              "price": 2
+            },
+            {
+              "name": "Antonio McDyess",
+              "year": "97-98",
+              "price": 2
+            },
+            {
+              "name": "Domantas Sabonis",
+              "year": "22-23",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-notre-dame-fighting-irish",
+          "name": "Notre Dame Fighting Irish",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Tim Hardaway Sr.",
+              "year": "96-97",
+              "price": 4
+            },
+            {
+              "name": "Donovan Mitchell",
+              "year": "23-24",
+              "price": 8
+            },
+            {
+              "name": "Anthony Edwards",
+              "year": "24-25",
+              "price": 13
+            },
+            {
+              "name": "Kevin Garnett",
+              "year": "03-04",
+              "price": 38
+            },
+            {
+              "name": "Bill Russell",
+              "year": "61-62",
+              "price": 29
+            },
+            {
+              "name": "Fred VanVleet",
+              "year": "21-22",
+              "price": 0
+            },
+            {
+              "name": "Andrew Wiggins",
+              "year": "21-22",
+              "price": 2
+            },
+            {
+              "name": "Carmelo Anthony",
+              "year": "12-13",
+              "price": 1
+            },
+            {
+              "name": "Sam Perkins",
+              "year": "94-95",
+              "price": 1
+            },
+            {
+              "name": "Walt Bellamy",
+              "year": "61-62",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "south-virginia-cavaliers",
+          "name": "Virginia Cavaliers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Damian Lillard",
+              "year": "22-23",
+              "price": 18
+            },
+            {
+              "name": "Kawhi Leonard",
+              "year": "16-17",
+              "price": 34
+            },
+            {
+              "name": "Alex English",
+              "year": "83-84",
+              "price": 7
+            },
+            {
+              "name": "Shawn Kemp",
+              "year": "95-96",
+              "price": 13
+            },
+            {
+              "name": "Dwight Howard",
+              "year": "10-11",
+              "price": 20
+            },
+            {
+              "name": "Isaiah Thomas",
+              "year": "16-17",
+              "price": 1
+            },
+            {
+              "name": "Lonzo Ball",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Jason Richardson",
+              "year": "05-06",
+              "price": 0
+            },
+            {
+              "name": "Franz Wagner",
+              "year": "24-25",
+              "price": 1
+            },
+            {
+              "name": "Nene",
+              "year": "10-11",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-kennesaw-state-owls",
+          "name": "Kennesaw State Owls",
+          "budget": 95,
+          "players": [
+            {
+              "name": "James Harden",
+              "year": "18-19",
+              "price": 25
+            },
+            {
+              "name": "Jalen Williams",
+              "year": "24-25",
+              "price": 9
+            },
+            {
+              "name": "Kevin Durant",
+              "year": "16-17",
+              "price": 35
+            },
+            {
+              "name": "Karl Malone",
+              "year": "97-98",
+              "price": 22
+            },
+            {
+              "name": "Arvydas Sabonis",
+              "year": "95-96",
+              "price": 2
+            },
+            {
+              "name": "Paul Westphal",
+              "year": "78-79",
+              "price": 1
+            },
+            {
+              "name": "Otis Birdsong",
+              "year": "80-81",
+              "price": 0
+            },
+            {
+              "name": "Scott Wedman",
+              "year": "78-79",
+              "price": 1
+            },
+            {
+              "name": "Tom Chambers",
+              "year": "89-90",
+              "price": 0
+            },
+            {
+              "name": "Ivica Zubac",
+              "year": "24-25",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-furman-paladins",
+          "name": "Furman Paladins",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Tracy McGrady",
+              "year": "02-03",
+              "price": 30
+            },
+            {
+              "name": "Clyde Drexler",
+              "year": "91-92",
+              "price": 17
+            },
+            {
+              "name": "Marques Johnson",
+              "year": "80-81",
+              "price": 9
+            },
+            {
+              "name": "Bob McAdoo",
+              "year": "74-75",
+              "price": 19
+            },
+            {
+              "name": "Moses Malone",
+              "year": "82-83",
+              "price": 15
+            },
+            {
+              "name": "Rajon Rondo",
+              "year": "08-09",
+              "price": 0
+            },
+            {
+              "name": "Goran Dragic",
+              "year": "13-14",
+              "price": 4
+            },
+            {
+              "name": "Billy Knight",
+              "year": "75-76",
+              "price": 0
+            },
+            {
+              "name": "Boris Diaw",
+              "year": "05-06",
+              "price": 0
+            },
+            {
+              "name": "Jermaine O'Neal",
+              "year": "03-04",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "south-hofstra-pride",
+          "name": "Hofstra Pride",
+          "budget": 92,
+          "players": [
+            {
+              "name": "Jerry West",
+              "year": "67-68",
+              "price": 36
+            },
+            {
+              "name": "Derrick White",
+              "year": "23-24",
+              "price": 8
+            },
+            {
+              "name": "Elgin Baylor",
+              "year": "60-61",
+              "price": 4
+            },
+            {
+              "name": "Paul Millsap",
+              "year": "14-15",
+              "price": 7
+            },
+            {
+              "name": "Wilt Chamberlain",
+              "year": "66-67",
+              "price": 32
+            },
+            {
+              "name": "Ja Morant",
+              "year": "21-22",
+              "price": 3
+            },
+            {
+              "name": "Steve Smith",
+              "year": "97-98",
+              "price": 2
+            },
+            {
+              "name": "Reggie Lewis",
+              "year": "91-92",
+              "price": 2
+            },
+            {
+              "name": "Marvin Williams",
+              "year": "15-16",
+              "price": -1
+            },
+            {
+              "name": "Brad Miller",
+              "year": "03-04",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "south-miami-hurricanes",
+          "name": "Miami Hurricanes",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kevin Johnson",
+              "year": "90-91",
+              "price": 10
+            },
+            {
+              "name": "Wesley Matthews",
+              "year": "14-15",
+              "price": 3
+            },
+            {
+              "name": "Bob Dandridge",
+              "year": "78-79",
+              "price": 6
+            },
+            {
+              "name": "Larry Bird",
+              "year": "85-86",
+              "price": 38
+            },
+            {
+              "name": "Tim Duncan",
+              "year": "02-03",
+              "price": 34
+            },
+            {
+              "name": "Jameer Nelson",
+              "year": "08-09",
+              "price": 0
+            },
+            {
+              "name": "Bobby Phills",
+              "year": "95-96",
+              "price": 1
+            },
+            {
+              "name": "Jamaal Wilkes",
+              "year": "79-80",
+              "price": 2
+            },
+            {
+              "name": "Bob Love",
+              "year": "70-71",
+              "price": 0
+            },
+            {
+              "name": "Jarrett Allen",
+              "year": "23-24",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "south-clemson-tigers",
+          "name": "Clemson Tigers",
+          "budget": 93,
+          "players": [
+            {
+              "name": "Chauncey Billups",
+              "year": "05-06",
+              "price": 16
+            },
+            {
+              "name": "Dwyane Wade",
+              "year": "08-09",
+              "price": 32
+            },
+            {
+              "name": "Michael Finley",
+              "year": "02-03",
+              "price": 3
+            },
+            {
+              "name": "Jaren Jackson Jr.",
+              "year": "24-25",
+              "price": 7
+            },
+            {
+              "name": "Kareem Abdul-Jabbar",
+              "year": "76-77",
+              "price": 33
+            },
+            {
+              "name": "Kemba Walker",
+              "year": "18-19",
+              "price": 1
+            },
+            {
+              "name": "Earl Monroe",
+              "year": "72-73",
+              "price": -1
+            },
+            {
+              "name": "Josh Howard",
+              "year": "06-07",
+              "price": 2
+            },
+            {
+              "name": "Scottie Barnes",
+              "year": "24-25",
+              "price": 0
+            },
+            {
+              "name": "Isaiah Hartenstein",
+              "year": "24-25",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-florida-gators",
+          "name": "Florida Gators",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Steve Nash",
+              "year": "06-07",
+              "price": 29
+            },
+            {
+              "name": "Danny Green",
+              "year": "14-15",
+              "price": 7
+            },
+            {
+              "name": "Chris Mullin",
+              "year": "90-91",
+              "price": 18
+            },
+            {
+              "name": "Chris Webber",
+              "year": "01-02",
+              "price": 4
+            },
+            {
+              "name": "David Robinson",
+              "year": "94-95",
+              "price": 32
+            },
+            {
+              "name": "De'Aaron Fox",
+              "year": "22-23",
+              "price": 1
+            },
+            {
+              "name": "Phil Smith",
+              "year": "75-76",
+              "price": 0
+            },
+            {
+              "name": "Glen Rice",
+              "year": "96-97",
+              "price": 2
+            },
+            {
+              "name": "Gerald Wallace",
+              "year": "09-10",
+              "price": 2
+            },
+            {
+              "name": "Theo Ratliff",
+              "year": "00-01",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-oregon-ducks",
+          "name": "Oregon Ducks",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Jason Kidd",
+              "year": "02-03",
+              "price": 16
+            },
+            {
+              "name": "Reggie Miller",
+              "year": "93-94",
+              "price": 24
+            },
+            {
+              "name": "Julius Erving",
+              "year": "75-76",
+              "price": 27
+            },
+            {
+              "name": "Evan Mobley",
+              "year": "24-25",
+              "price": 12
+            },
+            {
+              "name": "Alonzo Mourning",
+              "year": "99-00",
+              "price": 12
+            },
+            {
+              "name": "Gilbert Arenas",
+              "year": "05-06",
+              "price": 6
+            },
+            {
+              "name": "Mo Williams",
+              "year": "08-09",
+              "price": -1
+            },
+            {
+              "name": "Jalen Suggs",
+              "year": "23-24",
+              "price": -1
+            },
+            {
+              "name": "Greg Ballard",
+              "year": "81-82",
+              "price": 0
+            },
+            {
+              "name": "Zelmo Beaty",
+              "year": "70-71",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "south-cornell-big-red",
+          "name": "Cornell Big Red",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Kyrie Irving",
+              "year": "20-21",
+              "price": 14
+            },
+            {
+              "name": "Kobe Bryant",
+              "year": "02-03",
+              "price": 33
+            },
+            {
+              "name": "Eddie Jones",
+              "year": "99-00",
+              "price": 14
+            },
+            {
+              "name": "Billy Cunningham",
+              "year": "69-70",
+              "price": 4
+            },
+            {
+              "name": "Bill Walton",
+              "year": "76-77",
+              "price": 27
+            },
+            {
+              "name": "Tiny Archibald",
+              "year": "72-73",
+              "price": 1
+            },
+            {
+              "name": "Jerry Sloan",
+              "year": "70-71",
+              "price": 0
+            },
+            {
+              "name": "Bryon Russell",
+              "year": "99-00",
+              "price": -1
+            },
+            {
+              "name": "Connie Hawkins",
+              "year": "69-70",
+              "price": 2
+            },
+            {
+              "name": "Clifford Ray",
+              "year": "73-74",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "south-texas-tech-red-raiders",
+          "name": "Texas Tech Red Raiders",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Shai Gilgeous-Alexander",
+              "year": "24-25",
+              "price": 33
+            },
+            {
+              "name": "Joe Dumars",
+              "year": "92-93",
+              "price": 12
+            },
+            {
+              "name": "Joe Johnson",
+              "year": "07-08",
+              "price": 5
+            },
+            {
+              "name": "Victor Wembanyama",
+              "year": "24-25",
+              "price": 22
+            },
+            {
+              "name": "Willis Reed",
+              "year": "69-70",
+              "price": 19
+            },
+            {
+              "name": "Kirk Hinrich",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Ricky Pierce",
+              "year": "92-93",
+              "price": -2
+            },
+            {
+              "name": "Jon McGlocklin",
+              "year": "70-71",
+              "price": 1
+            },
+            {
+              "name": "Robert Horry",
+              "year": "95-96",
+              "price": 1
+            },
+            {
+              "name": "Bob Pettit",
+              "year": "58-59",
+              "price": 3
+            }
+          ]
+        }
+      ]
+    },
+    "west": {
+      "id": "west",
+      "name": "Draft 78 West",
+      "teams": [
+        {
+          "id": "west-louisville-cardinals",
+          "name": "Louisville Cardinals",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kyrie Irving",
+              "year": "20-21",
+              "price": 8
+            },
+            {
+              "name": "Wesley Matthews",
+              "year": "14-15",
+              "price": 3
+            },
+            {
+              "name": "Peja Stojakovic",
+              "year": "03-04",
+              "price": 12
+            },
+            {
+              "name": "Larry Bird",
+              "year": "85-86",
+              "price": 38
+            },
+            {
+              "name": "Hakeem Olajuwon",
+              "year": "93-94",
+              "price": 31
+            },
+            {
+              "name": "Tiny Archibald",
+              "year": "72-73",
+              "price": 1
+            },
+            {
+              "name": "Kirk Hinrich",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Roger Brown",
+              "year": "69-70",
+              "price": 0
+            },
+            {
+              "name": "Larry Kenon",
+              "year": "78-79",
+              "price": 0
+            },
+            {
+              "name": "Wes Unseld",
+              "year": "74-75",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "west-st-marys-gaels",
+          "name": "St Mary's Gaels",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Shai Gilgeous-Alexander",
+              "year": "24-25",
+              "price": 28
+            },
+            {
+              "name": "David Thompson",
+              "year": "77-78",
+              "price": 5
+            },
+            {
+              "name": "Paul Pierce",
+              "year": "07-08",
+              "price": 16
+            },
+            {
+              "name": "Evan Mobley",
+              "year": "24-25",
+              "price": 9
+            },
+            {
+              "name": "Bill Russell",
+              "year": "61-62",
+              "price": 28
+            },
+            {
+              "name": "Cade Cunningham",
+              "year": "24-25",
+              "price": 8
+            },
+            {
+              "name": "Phil Chenier",
+              "year": "74-75",
+              "price": 1
+            },
+            {
+              "name": "Greg Ballard",
+              "year": "81-82",
+              "price": 0
+            },
+            {
+              "name": "Alvan Adams",
+              "year": "75-76",
+              "price": 1
+            },
+            {
+              "name": "Ralph Sampson",
+              "year": "85-86",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "west-western-kentucky-hilltoppers",
+          "name": "Western Kentucky Hilltoppers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Magic Johnson",
+              "year": "85-86",
+              "price": 36
+            },
+            {
+              "name": "Penny Hardaway",
+              "year": "95-96",
+              "price": 17
+            },
+            {
+              "name": "Eddie Jones",
+              "year": "99-00",
+              "price": 17
+            },
+            {
+              "name": "Blake Griffin",
+              "year": "13-14",
+              "price": 5
+            },
+            {
+              "name": "Patrick Ewing",
+              "year": "89-90",
+              "price": 12
+            },
+            {
+              "name": "Gus Williams",
+              "year": "81-82",
+              "price": 2
+            },
+            {
+              "name": "Doug Christie",
+              "year": "02-03",
+              "price": 6
+            },
+            {
+              "name": "Chuck Person",
+              "year": "91-92",
+              "price": -1
+            },
+            {
+              "name": "Jerome Kersey",
+              "year": "90-91",
+              "price": 1
+            },
+            {
+              "name": "Arvydas Sabonis",
+              "year": "97-98",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "west-arkansas-razorbacks",
+          "name": "Arkansas Razorbacks",
+          "budget": 92,
+          "players": [
+            {
+              "name": "Terrell Brandon",
+              "year": "95-96",
+              "price": 3
+            },
+            {
+              "name": "Jerry West",
+              "year": "67-68",
+              "price": 35
+            },
+            {
+              "name": "Bernard King",
+              "year": "83-84",
+              "price": 6
+            },
+            {
+              "name": "Kevin Garnett",
+              "year": "03-04",
+              "price": 38
+            },
+            {
+              "name": "Bob Lanier",
+              "year": "73-74",
+              "price": 8
+            },
+            {
+              "name": "Mookie Blaylock",
+              "year": "96-97",
+              "price": 0
+            },
+            {
+              "name": "Buddy Hield",
+              "year": "18-19",
+              "price": -1
+            },
+            {
+              "name": "Joe Johnson",
+              "year": "07-08",
+              "price": 1
+            },
+            {
+              "name": "Sidney Wicks",
+              "year": "74-75",
+              "price": -1
+            },
+            {
+              "name": "Kevin McHale",
+              "year": "86-87",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "west-penn-quakers",
+          "name": "Penn Quakers",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Stephen Curry",
+              "year": "15-16",
+              "price": 37
+            },
+            {
+              "name": "Sidney Moncrief",
+              "year": "82-83",
+              "price": 15
+            },
+            {
+              "name": "Danny Granger",
+              "year": "08-09",
+              "price": 6
+            },
+            {
+              "name": "Julius Erving",
+              "year": "75-76",
+              "price": 26
+            },
+            {
+              "name": "Horace Grant",
+              "year": "91-92",
+              "price": 5
+            },
+            {
+              "name": "Kenny Anderson",
+              "year": "96-97",
+              "price": 0
+            },
+            {
+              "name": "Jalen Suggs",
+              "year": "23-24",
+              "price": 0
+            },
+            {
+              "name": "Dale Ellis",
+              "year": "88-89",
+              "price": 1
+            },
+            {
+              "name": "Brad Miller",
+              "year": "03-04",
+              "price": 1
+            },
+            {
+              "name": "Ben Wallace",
+              "year": "03-04",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "west-uconn-huskies",
+          "name": "UConn Huskies",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Mark Price",
+              "year": "91-92",
+              "price": 15
+            },
+            {
+              "name": "Brandon Roy",
+              "year": "08-09",
+              "price": 12
+            },
+            {
+              "name": "Kawhi Leonard",
+              "year": "16-17",
+              "price": 34
+            },
+            {
+              "name": "David West",
+              "year": "12-13",
+              "price": 3
+            },
+            {
+              "name": "Wilt Chamberlain",
+              "year": "66-67",
+              "price": 28
+            },
+            {
+              "name": "Kemba Walker",
+              "year": "18-19",
+              "price": 1
+            },
+            {
+              "name": "Kentavious Caldwell-Pope",
+              "year": "22-23",
+              "price": -1
+            },
+            {
+              "name": "Dominique Wilkins",
+              "year": "86-87",
+              "price": 2
+            },
+            {
+              "name": "Marvin Williams",
+              "year": "15-16",
+              "price": -1
+            },
+            {
+              "name": "Yao Ming",
+              "year": "06-07",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "west-umbc-retrievers",
+          "name": "UMBC Retrievers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "John Wall",
+              "year": "16-17",
+              "price": 2
+            },
+            {
+              "name": "Klay Thompson",
+              "year": "15-16",
+              "price": 24
+            },
+            {
+              "name": "Elgin Baylor",
+              "year": "61-62",
+              "price": 5
+            },
+            {
+              "name": "Tim Duncan",
+              "year": "02-03",
+              "price": 33
+            },
+            {
+              "name": "Victor Wembanyama",
+              "year": "24-25",
+              "price": 24
+            },
+            {
+              "name": "Isaiah Thomas",
+              "year": "16-17",
+              "price": 1
+            },
+            {
+              "name": "Tony Allen",
+              "year": "10-11",
+              "price": -1
+            },
+            {
+              "name": "Kyle Korver",
+              "year": "14-15",
+              "price": 4
+            },
+            {
+              "name": "Carmelo Anthony",
+              "year": "12-13",
+              "price": 1
+            },
+            {
+              "name": "Connie Hawkins",
+              "year": "69-70",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "west-miami-redhawks",
+          "name": "Miami RedHawks",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Tim Hardaway Sr.",
+              "year": "96-97",
+              "price": 3
+            },
+            {
+              "name": "Ray Allen",
+              "year": "00-01",
+              "price": 17
+            },
+            {
+              "name": "Jayson Tatum",
+              "year": "24-25",
+              "price": 42
+            },
+            {
+              "name": "LeBron James",
+              "year": "12-13",
+              "price": 23
+            },
+            {
+              "name": "Dikembe Mutombo",
+              "year": "93-94",
+              "price": 3
+            },
+            {
+              "name": "Maurice Cheeks",
+              "year": "82-83",
+              "price": 1
+            },
+            {
+              "name": "Michael Finley",
+              "year": "02-03",
+              "price": 4
+            },
+            {
+              "name": "Caron Butler",
+              "year": "07-08",
+              "price": 0
+            },
+            {
+              "name": "Elton Brand",
+              "year": "05-06",
+              "price": 0
+            },
+            {
+              "name": "Ivica Zubac",
+              "year": "24-25",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "west-iowa-state-cyclones",
+          "name": "Iowa State Cyclones",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Terry Porter",
+              "year": "90-91",
+              "price": 15
+            },
+            {
+              "name": "Jimmy Butler",
+              "year": "22-23",
+              "price": 19
+            },
+            {
+              "name": "John Havlicek",
+              "year": "70-71",
+              "price": 16
+            },
+            {
+              "name": "Jaren Jackson Jr.",
+              "year": "22-23",
+              "price": 7
+            },
+            {
+              "name": "Nikola Jokic",
+              "year": "24-25",
+              "price": 33
+            },
+            {
+              "name": "Jamal Murray",
+              "year": "22-23",
+              "price": 3
+            },
+            {
+              "name": "Kerry Kittles",
+              "year": "02-03",
+              "price": 0
+            },
+            {
+              "name": "Mike Miller",
+              "year": "06-07",
+              "price": 0
+            },
+            {
+              "name": "Josh Smith",
+              "year": "09-10",
+              "price": 4
+            },
+            {
+              "name": "Clifford Ray",
+              "year": "73-74",
+              "price": -2
+            }
+          ]
+        },
+        {
+          "id": "west-illinois-fighting-illini",
+          "name": "Illinois Fighting Illini",
+          "budget": 93,
+          "players": [
+            {
+              "name": "Tyrese Haliburton",
+              "year": "24-25",
+              "price": 14
+            },
+            {
+              "name": "Michael Jordan",
+              "year": "90-91",
+              "price": 45
+            },
+            {
+              "name": "Charles Barkley",
+              "year": "92-93",
+              "price": 2
+            },
+            {
+              "name": "Chris Bosh",
+              "year": "12-13",
+              "price": 16
+            },
+            {
+              "name": "Rudy Gobert",
+              "year": "20-21",
+              "price": 8
+            },
+            {
+              "name": "Baron Davis",
+              "year": "06-07",
+              "price": 2
+            },
+            {
+              "name": "Arron Afflalo",
+              "year": "10-11",
+              "price": -1
+            },
+            {
+              "name": "Brent Barry",
+              "year": "01-02",
+              "price": 1
+            },
+            {
+              "name": "Billy Cunningham",
+              "year": "69-70",
+              "price": -1
+            },
+            {
+              "name": "PJ Brown",
+              "year": "00-01",
+              "price": 7
+            }
+          ]
+        },
+        {
+          "id": "west-kansas-jayhawks",
+          "name": "Kansas Jayhawks",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Derek Harper",
+              "year": "86-87",
+              "price": 8
+            },
+            {
+              "name": "Dwyane Wade",
+              "year": "08-09",
+              "price": 32
+            },
+            {
+              "name": "Paul George",
+              "year": "18-19",
+              "price": 19
+            },
+            {
+              "name": "Dirk Nowitzki",
+              "year": "10-11",
+              "price": 25
+            },
+            {
+              "name": "Robert Parish",
+              "year": "80-81",
+              "price": 3
+            },
+            {
+              "name": "Tyrese Maxey",
+              "year": "24-25",
+              "price": 2
+            },
+            {
+              "name": "John Starks",
+              "year": "92-93",
+              "price": -1
+            },
+            {
+              "name": "Nicolas Batum",
+              "year": "13-14",
+              "price": 3
+            },
+            {
+              "name": "Franz Wagner",
+              "year": "24-25",
+              "price": 2
+            },
+            {
+              "name": "Andrew Bogut",
+              "year": "09-10",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "west-cleveland-state-vikings",
+          "name": "Cleveland State Vikings",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kevin Johnson",
+              "year": "90-91",
+              "price": 10
+            },
+            {
+              "name": "Tracy McGrady",
+              "year": "02-03",
+              "price": 27
+            },
+            {
+              "name": "Bob Dandridge",
+              "year": "78-79",
+              "price": 4
+            },
+            {
+              "name": "Kevin Durant",
+              "year": "16-17",
+              "price": 35
+            },
+            {
+              "name": "Moses Malone",
+              "year": "82-83",
+              "price": 14
+            },
+            {
+              "name": "Dennis Johnson",
+              "year": "80-81",
+              "price": 3
+            },
+            {
+              "name": "Richard Hamilton",
+              "year": "05-06",
+              "price": 2
+            },
+            {
+              "name": "Bobby Simmons",
+              "year": "04-05",
+              "price": -1
+            },
+            {
+              "name": "Gus Johnson",
+              "year": "69-70",
+              "price": 1
+            },
+            {
+              "name": "Vlade Divac",
+              "year": "94-95",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "west-south-florida-bulls",
+          "name": "South Florida Bulls",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Gary Payton",
+              "year": "97-98",
+              "price": 12
+            },
+            {
+              "name": "Kobe Bryant",
+              "year": "07-08",
+              "price": 34
+            },
+            {
+              "name": "Gordon Hayward",
+              "year": "16-17",
+              "price": 7
+            },
+            {
+              "name": "Sam Perkins",
+              "year": "94-95",
+              "price": 2
+            },
+            {
+              "name": "Kareem Abdul-Jabbar",
+              "year": "76-77",
+              "price": 35
+            },
+            {
+              "name": "Steve Francis",
+              "year": "00-01",
+              "price": 0
+            },
+            {
+              "name": "LaMelo Ball",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Latrell Sprewell",
+              "year": "93-94",
+              "price": 2
+            },
+            {
+              "name": "Detlef Schrempf",
+              "year": "94-95",
+              "price": 1
+            },
+            {
+              "name": "Jermaine O'Neal",
+              "year": "03-04",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "west-vanderbilt-commodores",
+          "name": "Vanderbilt Commodores",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Derrick Rose",
+              "year": "10-11",
+              "price": 7
+            },
+            {
+              "name": "Derrick White",
+              "year": "24-25",
+              "price": 7
+            },
+            {
+              "name": "Khris Middleton",
+              "year": "19-20",
+              "price": 9
+            },
+            {
+              "name": "Anthony Davis",
+              "year": "19-20",
+              "price": 28
+            },
+            {
+              "name": "Shaquille O'Neal",
+              "year": "99-00",
+              "price": 37
+            },
+            {
+              "name": "Fred VanVleet",
+              "year": "21-22",
+              "price": 0
+            },
+            {
+              "name": "Jason Terry",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Lou Hudson",
+              "year": "69-70",
+              "price": 5
+            },
+            {
+              "name": "Dave DeBusschere",
+              "year": "69-70",
+              "price": 0
+            },
+            {
+              "name": "Kristaps Porzingis",
+              "year": "23-24",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "west-texas-longhorns",
+          "name": "Texas Longhorns",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Steve Nash",
+              "year": "06-07",
+              "price": 27
+            },
+            {
+              "name": "Donovan Mitchell",
+              "year": "22-23",
+              "price": 5
+            },
+            {
+              "name": "Ron Artest",
+              "year": "03-04",
+              "price": 10
+            },
+            {
+              "name": "Rasheed Wallace",
+              "year": "01-02",
+              "price": 15
+            },
+            {
+              "name": "David Robinson",
+              "year": "94-95",
+              "price": 32
+            },
+            {
+              "name": "Goran Dragic",
+              "year": "13-14",
+              "price": 3
+            },
+            {
+              "name": "Brian Taylor",
+              "year": "75-76",
+              "price": 0
+            },
+            {
+              "name": "Scott Wedman",
+              "year": "78-79",
+              "price": 1
+            },
+            {
+              "name": "Gerald Wallace",
+              "year": "09-10",
+              "price": 2
+            },
+            {
+              "name": "Maurice Lucas",
+              "year": "77-78",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "west-st-johns-red-storm",
+          "name": "St. John's Red Storm",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Chris Paul",
+              "year": "14-15",
+              "price": 29
+            },
+            {
+              "name": "James Harden",
+              "year": "19-20",
+              "price": 23
+            },
+            {
+              "name": "Mikal Bridges",
+              "year": "21-22",
+              "price": 6
+            },
+            {
+              "name": "Chet Holmgren",
+              "year": "24-25",
+              "price": 6
+            },
+            {
+              "name": "Joel Embiid",
+              "year": "22-23",
+              "price": 23
+            },
+            {
+              "name": "Fred Brown",
+              "year": "75-76",
+              "price": 1
+            },
+            {
+              "name": "Andrew Wiggins",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Zion Williamson",
+              "year": "20-21",
+              "price": 5
+            },
+            {
+              "name": "Antonio McDyess",
+              "year": "97-98",
+              "price": 0
+            },
+            {
+              "name": "Rik Smits",
+              "year": "94-95",
+              "price": 0
+            }
+          ]
+        }
+      ]
+    },
+    "midwest": {
+      "id": "midwest",
+      "name": "Draft 78 Midwest",
+      "teams": [
+        {
+          "id": "midwest-maryland-terrapins",
+          "name": "Maryland Terrapins",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Stephen Curry",
+              "year": "15-16",
+              "price": 37
+            },
+            {
+              "name": "Gary Payton",
+              "year": "97-98",
+              "price": 9
+            },
+            {
+              "name": "Dennis Rodman",
+              "year": "91-92",
+              "price": 5
+            },
+            {
+              "name": "Dwight Howard",
+              "year": "10-11",
+              "price": 12
+            },
+            {
+              "name": "Nikola Jokic",
+              "year": "22-23",
+              "price": 28
+            },
+            {
+              "name": "Isaiah Thomas",
+              "year": "16-17",
+              "price": 1
+            },
+            {
+              "name": "Gary Harris",
+              "year": "17-18",
+              "price": 0
+            },
+            {
+              "name": "Nicolas Batum",
+              "year": "13-14",
+              "price": 1
+            },
+            {
+              "name": "Kristaps Porzingis",
+              "year": "23-24",
+              "price": 2
+            },
+            {
+              "name": "Elvin Hayes",
+              "year": "76-77",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "midwest-purdue-boilermakers",
+          "name": "Purdue Boilermakers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Baron Davis",
+              "year": "06-07",
+              "price": 4
+            },
+            {
+              "name": "Michael Jordan",
+              "year": "90-91",
+              "price": 45
+            },
+            {
+              "name": "Danny Granger",
+              "year": "08-09",
+              "price": 6
+            },
+            {
+              "name": "Chris Webber",
+              "year": "01-02",
+              "price": 5
+            },
+            {
+              "name": "Bill Walton",
+              "year": "76-77",
+              "price": 28
+            },
+            {
+              "name": "Sam Cassell",
+              "year": "03-04",
+              "price": 0
+            },
+            {
+              "name": "Jon McGlocklin",
+              "year": "70-71",
+              "price": 1
+            },
+            {
+              "name": "Joe Johnson",
+              "year": "07-08",
+              "price": 2
+            },
+            {
+              "name": "Gus Johnson",
+              "year": "69-70",
+              "price": 3
+            },
+            {
+              "name": "Brad Miller",
+              "year": "03-04",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-lehigh-mountain-hawks",
+          "name": "Lehigh Mountain Hawks",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Damian Lillard",
+              "year": "22-23",
+              "price": 16
+            },
+            {
+              "name": "Jimmy Butler",
+              "year": "16-17",
+              "price": 18
+            },
+            {
+              "name": "LeBron James",
+              "year": "12-13",
+              "price": 42
+            },
+            {
+              "name": "Rasheed Wallace",
+              "year": "01-02",
+              "price": 12
+            },
+            {
+              "name": "Chet Holmgren",
+              "year": "24-25",
+              "price": 4
+            },
+            {
+              "name": "Steve Francis",
+              "year": "00-01",
+              "price": 0
+            },
+            {
+              "name": "Phil Chenier",
+              "year": "74-75",
+              "price": 1
+            },
+            {
+              "name": "DeMar DeRozan",
+              "year": "21-22",
+              "price": -1
+            },
+            {
+              "name": "Hedo Turkoglu",
+              "year": "07-08",
+              "price": 2
+            },
+            {
+              "name": "Arvydas Sabonis",
+              "year": "97-98",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-ucf-knights",
+          "name": "UCF Knights",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kemba Walker",
+              "year": "18-19",
+              "price": 3
+            },
+            {
+              "name": "Paul George",
+              "year": "18-19",
+              "price": 22
+            },
+            {
+              "name": "Grant Hill",
+              "year": "96-97",
+              "price": 24
+            },
+            {
+              "name": "Kevin Garnett",
+              "year": "03-04",
+              "price": 38
+            },
+            {
+              "name": "Al Horford",
+              "year": "17-18",
+              "price": 4
+            },
+            {
+              "name": "Charlie Ward",
+              "year": "97-98",
+              "price": -1
+            },
+            {
+              "name": "Zach Lavine",
+              "year": "20-21",
+              "price": 0
+            },
+            {
+              "name": "Amen Thompson",
+              "year": "24-25",
+              "price": 1
+            },
+            {
+              "name": "Bob Pettit",
+              "year": "58-59",
+              "price": 1
+            },
+            {
+              "name": "Ben Wallace",
+              "year": "03-04",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "midwest-saint-louis-billikens",
+          "name": "Saint Louis Billikens",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Russell Westbrook",
+              "year": "16-17",
+              "price": 11
+            },
+            {
+              "name": "Jaylen Brown",
+              "year": "23-24",
+              "price": 7
+            },
+            {
+              "name": "Larry Bird",
+              "year": "85-86",
+              "price": 38
+            },
+            {
+              "name": "Anthony Davis",
+              "year": "19-20",
+              "price": 25
+            },
+            {
+              "name": "Bob Lanier",
+              "year": "73-74",
+              "price": 4
+            },
+            {
+              "name": "De'Aaron Fox",
+              "year": "22-23",
+              "price": 2
+            },
+            {
+              "name": "Danny Green",
+              "year": "14-15",
+              "price": 6
+            },
+            {
+              "name": "Elgin Baylor",
+              "year": "61-62",
+              "price": 3
+            },
+            {
+              "name": "Rodney McCray",
+              "year": "86-87",
+              "price": -1
+            },
+            {
+              "name": "Myles Turner",
+              "year": "24-25",
+              "price": -1
+            }
+          ]
+        },
+        {
+          "id": "midwest-high-point-panthers",
+          "name": "High Point Panthers",
+          "budget": 94,
+          "players": [
+            {
+              "name": "Steve Nash",
+              "year": "06-07",
+              "price": 31
+            },
+            {
+              "name": "Devin Booker",
+              "year": "23-24",
+              "price": 11
+            },
+            {
+              "name": "Mikal Bridges",
+              "year": "22-23",
+              "price": 6
+            },
+            {
+              "name": "Giannis Antetokounmpo",
+              "year": "21-22",
+              "price": 28
+            },
+            {
+              "name": "Moses Malone",
+              "year": "82-83",
+              "price": 14
+            },
+            {
+              "name": "Mookie Blaylock",
+              "year": "96-97",
+              "price": 0
+            },
+            {
+              "name": "Byron Scott",
+              "year": "87-88",
+              "price": 1
+            },
+            {
+              "name": "David Thompson",
+              "year": "77-78",
+              "price": 2
+            },
+            {
+              "name": "Detlef Schrempf",
+              "year": "94-95",
+              "price": 1
+            },
+            {
+              "name": "DeAndre Jordan",
+              "year": "14-15",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "midwest-liu-sharks",
+          "name": "LIU Sharks",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Magic Johnson",
+              "year": "86-87",
+              "price": 36
+            },
+            {
+              "name": "Reggie Miller",
+              "year": "93-94",
+              "price": 25
+            },
+            {
+              "name": "Jalen Williams",
+              "year": "24-25",
+              "price": 8
+            },
+            {
+              "name": "Pascal Siakam",
+              "year": "19-20",
+              "price": 6
+            },
+            {
+              "name": "Patrick Ewing",
+              "year": "89-90",
+              "price": 15
+            },
+            {
+              "name": "Terrell Brandon",
+              "year": "95-96",
+              "price": 1
+            },
+            {
+              "name": "Rolando Blackman",
+              "year": "86-87",
+              "price": 2
+            },
+            {
+              "name": "Dick Van Arsdale",
+              "year": "69-70",
+              "price": 1
+            },
+            {
+              "name": "Bob Love",
+              "year": "70-71",
+              "price": 0
+            },
+            {
+              "name": "Alvan Adams",
+              "year": "75-76",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-houston-cougars",
+          "name": "Houston Cougars",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Derrick Rose",
+              "year": "10-11",
+              "price": 6
+            },
+            {
+              "name": "Dan Majerle",
+              "year": "92-93",
+              "price": 9
+            },
+            {
+              "name": "Kawhi Leonard",
+              "year": "16-17",
+              "price": 34
+            },
+            {
+              "name": "Draymond Green",
+              "year": "15-16",
+              "price": 21
+            },
+            {
+              "name": "Bob McAdoo",
+              "year": "74-75",
+              "price": 20
+            },
+            {
+              "name": "Sleepy Floyd",
+              "year": "86-87",
+              "price": 2
+            },
+            {
+              "name": "Derek Anderson",
+              "year": "00-01",
+              "price": -1
+            },
+            {
+              "name": "Latrell Sprewell",
+              "year": "93-94",
+              "price": 3
+            },
+            {
+              "name": "Nikola Vucevic",
+              "year": "18-19",
+              "price": -1
+            },
+            {
+              "name": "Tyson Chandler",
+              "year": "11-12",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "midwest-arizona-state-sun-devils",
+          "name": "Arizona State Sun Devils",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Kyle Lowry",
+              "year": "16-17",
+              "price": 12
+            },
+            {
+              "name": "Anthony Edwards",
+              "year": "24-25",
+              "price": 14
+            },
+            {
+              "name": "Marques Johnson",
+              "year": "80-81",
+              "price": 10
+            },
+            {
+              "name": "Peja Stojakovic",
+              "year": "03-04",
+              "price": 11
+            },
+            {
+              "name": "Hakeem Olajuwon",
+              "year": "93-94",
+              "price": 36
+            },
+            {
+              "name": "Gilbert Arenas",
+              "year": "06-07",
+              "price": 4
+            },
+            {
+              "name": "Michael Finley",
+              "year": "02-03",
+              "price": 3
+            },
+            {
+              "name": "Chet Walker",
+              "year": "71-72",
+              "price": 2
+            },
+            {
+              "name": "Clifford Robinson",
+              "year": "99-00",
+              "price": 2
+            },
+            {
+              "name": "Brad Daugherty",
+              "year": "91-92",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-wisconsin-badgers",
+          "name": "Wisconsin Badgers",
+          "budget": 95,
+          "players": [
+            {
+              "name": "James Harden",
+              "year": "19-20",
+              "price": 24
+            },
+            {
+              "name": "Wesley Matthews",
+              "year": "14-15",
+              "price": 2
+            },
+            {
+              "name": "Tracy McGrady",
+              "year": "02-03",
+              "price": 30
+            },
+            {
+              "name": "Andrei Kirilenko",
+              "year": "03-04",
+              "price": 12
+            },
+            {
+              "name": "Joel Embiid",
+              "year": "23-24",
+              "price": 22
+            },
+            {
+              "name": "Marcus Smart",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Pete Maravich",
+              "year": "76-77",
+              "price": -1
+            },
+            {
+              "name": "Scott Wedman",
+              "year": "78-79",
+              "price": 1
+            },
+            {
+              "name": "Aaron Gordon",
+              "year": "22-23",
+              "price": 1
+            },
+            {
+              "name": "Karl-Anthony Towns",
+              "year": "21-22",
+              "price": 3
+            }
+          ]
+        },
+        {
+          "id": "midwest-duke-blue-devils",
+          "name": "Duke Blue Devils",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Jerry West",
+              "year": "67-68",
+              "price": 36
+            },
+            {
+              "name": "Tyrese Maxey",
+              "year": "23-24",
+              "price": 2
+            },
+            {
+              "name": "Paul Pierce",
+              "year": "01-02",
+              "price": 19
+            },
+            {
+              "name": "Billy Cunningham",
+              "year": "69-70",
+              "price": 3
+            },
+            {
+              "name": "Kareem Abdul-Jabbar",
+              "year": "76-77",
+              "price": 32
+            },
+            {
+              "name": "John Wall",
+              "year": "16-17",
+              "price": 2
+            },
+            {
+              "name": "Jamal Mashburn",
+              "year": "02-03",
+              "price": 0
+            },
+            {
+              "name": "Derrick McKey",
+              "year": "94-95",
+              "price": 0
+            },
+            {
+              "name": "Danny Manning",
+              "year": "91-92",
+              "price": -1
+            },
+            {
+              "name": "Brook Lopez",
+              "year": "22-23",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "id": "midwest-alabama-crimson-tide",
+          "name": "Alabama Crimson Tide",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Jason Kidd",
+              "year": "02-03",
+              "price": 11
+            },
+            {
+              "name": "Kobe Bryant",
+              "year": "07-08",
+              "price": 33
+            },
+            {
+              "name": "Kevin Durant",
+              "year": "16-17",
+              "price": 35
+            },
+            {
+              "name": "Evan Mobley",
+              "year": "24-25",
+              "price": 8
+            },
+            {
+              "name": "Kevin McHale",
+              "year": "86-87",
+              "price": 5
+            },
+            {
+              "name": "Fred VanVleet",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Bobby Phills",
+              "year": "95-96",
+              "price": 1
+            },
+            {
+              "name": "Dorian Finney-Smith",
+              "year": "21-22",
+              "price": 0
+            },
+            {
+              "name": "Antonio McDyess",
+              "year": "97-98",
+              "price": 1
+            },
+            {
+              "name": "Theo Ratliff",
+              "year": "00-01",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "midwest-kentucky-wildcats",
+          "name": "Kentucky Wildcats",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Chris Paul",
+              "year": "14-15",
+              "price": 30
+            },
+            {
+              "name": "Doug Christie",
+              "year": "02-03",
+              "price": 5
+            },
+            {
+              "name": "Chris Mullin",
+              "year": "90-91",
+              "price": 16
+            },
+            {
+              "name": "Julius Erving",
+              "year": "75-76",
+              "price": 29
+            },
+            {
+              "name": "Dikembe Mutombo",
+              "year": "96-97",
+              "price": 2
+            },
+            {
+              "name": "Micheal Williams",
+              "year": "91-92",
+              "price": -1
+            },
+            {
+              "name": "Dennis Johnson",
+              "year": "81-82",
+              "price": 2
+            },
+            {
+              "name": "Brent Barry",
+              "year": "01-02",
+              "price": 2
+            },
+            {
+              "name": "Jaren Jackson Jr.",
+              "year": "24-25",
+              "price": 9
+            },
+            {
+              "name": "Elton Brand",
+              "year": "05-06",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-texas-a&m-aggies",
+          "name": "Texas A&M Aggies",
+          "budget": 95,
+          "players": [
+            {
+              "name": "George Hill",
+              "year": "16-17",
+              "price": 2
+            },
+            {
+              "name": "Dwyane Wade",
+              "year": "08-09",
+              "price": 31
+            },
+            {
+              "name": "Bob Dandridge",
+              "year": "78-79",
+              "price": 4
+            },
+            {
+              "name": "Dirk Nowitzki",
+              "year": "10-11",
+              "price": 22
+            },
+            {
+              "name": "Tim Duncan",
+              "year": "02-03",
+              "price": 33
+            },
+            {
+              "name": "LaMelo Ball",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Fred Brown",
+              "year": "75-76",
+              "price": 1
+            },
+            {
+              "name": "John Starks",
+              "year": "92-93",
+              "price": -1
+            },
+            {
+              "name": "Mike Miller",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Jermaine O'Neal",
+              "year": "03-04",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "id": "midwest-ohio-state-buckeyes",
+          "name": "Ohio State Buckeyes",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Chauncey Billups",
+              "year": "05-06",
+              "price": 16
+            },
+            {
+              "name": "Lou Hudson",
+              "year": "69-70",
+              "price": 4
+            },
+            {
+              "name": "Rick Barry",
+              "year": "74-75",
+              "price": 10
+            },
+            {
+              "name": "Karl Malone",
+              "year": "97-98",
+              "price": 22
+            },
+            {
+              "name": "Shaquille O'Neal",
+              "year": "99-00",
+              "price": 37
+            },
+            {
+              "name": "Ja Morant",
+              "year": "21-22",
+              "price": 4
+            },
+            {
+              "name": "Kirk Hinrich",
+              "year": "06-07",
+              "price": 1
+            },
+            {
+              "name": "Roger Brown",
+              "year": "69-70",
+              "price": 0
+            },
+            {
+              "name": "Buck Williams",
+              "year": "82-83",
+              "price": 1
+            },
+            {
+              "name": "Andrew Bynum",
+              "year": "11-12",
+              "price": 0
+            }
+          ]
+        },
+        {
+          "id": "midwest-iowa-hawkeyes",
+          "name": "Iowa Hawkeyes",
+          "budget": 95,
+          "players": [
+            {
+              "name": "Shai Gilgeous-Alexander",
+              "year": "24-25",
+              "price": 28
+            },
+            {
+              "name": "Eddie Jones",
+              "year": "99-00",
+              "price": 15
+            },
+            {
+              "name": "Bernard King",
+              "year": "83-84",
+              "price": 4
+            },
+            {
+              "name": "Larry Nance Sr.",
+              "year": "91-92",
+              "price": 11
+            },
+            {
+              "name": "David Robinson",
+              "year": "94-95",
+              "price": 30
+            },
+            {
+              "name": "Trae Young",
+              "year": "21-22",
+              "price": 1
+            },
+            {
+              "name": "Gail Goodrich",
+              "year": "71-72",
+              "price": 0
+            },
+            {
+              "name": "Alvin Robertson",
+              "year": "85-86",
+              "price": -1
+            },
+            {
+              "name": "Greg Ballard",
+              "year": "81-82",
+              "price": 1
+            },
+            {
+              "name": "Kevin Love",
+              "year": "13-14",
+              "price": 6
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
