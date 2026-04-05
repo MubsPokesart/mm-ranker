@@ -124,9 +124,15 @@ export function ComparisonView({
           ← Regions
         </button>
         <span className="comparison-region-name">{REGION_DISPLAY_NAMES[regionId]}</span>
-        <span className="comparison-progress">
-          {state.comparisons.length} / {MIN_COMPARISONS_TO_UNLOCK} comparisons
-        </span>
+        <div className="comparison-progress">
+          <span className="comparison-count">{state.comparisons.length} comparisons</span>
+          {!canReveal && (
+            <span className="comparison-minimum">{MIN_COMPARISONS_TO_UNLOCK - state.comparisons.length} more to unlock rankings</span>
+          )}
+          {canReveal && (
+            <span className="comparison-encourage">more improves accuracy</span>
+          )}
+        </div>
       </nav>
 
       <section className="comparison-cards" aria-label="Team comparison">
