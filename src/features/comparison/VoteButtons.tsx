@@ -17,19 +17,25 @@ const VOTE_OPTIONS = [
 
 export function VoteButtons({ onVote, leftTeamName, rightTeamName }: VoteButtonsProps) {
   return (
-    <div className="vote-buttons" role="group" aria-label="Vote on which team you prefer">
-      <span className="vote-label">Prefer left</span>
-      {VOTE_OPTIONS.map((option) => (
-        <button
-          key={option.label}
-          className="vote-circle"
-          onClick={(e) => { (e.target as HTMLElement).blur(); onVote(option.score); }}
-          aria-label={option.ariaTemplate.replace("{left}", leftTeamName).replace("{right}", rightTeamName)}
-        >
-          {option.label}
-        </button>
-      ))}
-      <span className="vote-label">Prefer right</span>
+    <div className="vote-container" role="group" aria-label="Vote on which team you prefer">
+      <div className="vote-hint">
+        <span>← Prefer left</span>
+        <span>Prefer right →</span>
+      </div>
+      <div className="vote-buttons">
+        <span className="vote-label">Prefer left</span>
+        {VOTE_OPTIONS.map((option) => (
+          <button
+            key={option.label}
+            className="vote-circle"
+            onClick={(e) => { (e.target as HTMLElement).blur(); onVote(option.score); }}
+            aria-label={option.ariaTemplate.replace("{left}", leftTeamName).replace("{right}", rightTeamName)}
+          >
+            {option.label}
+          </button>
+        ))}
+        <span className="vote-label">Prefer right</span>
+      </div>
     </div>
   );
 }
