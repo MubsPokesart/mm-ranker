@@ -1,0 +1,27 @@
+.vote-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+}
+
+.vote-button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  font-size: 14px;
+  width: 200px;
+  text-align: center;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.vote-button:hover {
+  background: var(--color-accent);
+}
+
+.vote-button:active {
+  transform: scale(0.97);
+}
