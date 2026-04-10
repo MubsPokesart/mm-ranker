@@ -1,9 +1,10 @@
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useEffect, useMemo } from "react";
 import type { ViewState } from "./engine/types";
 import type { RegionState } from "./engine/types";
 import type { RegionId } from "./config/constants";
 import { REGION_IDS } from "./config/constants";
-import teamsData from "./config/teams.json";
+import fallbackTeams from "./config/teams.json";
+import { loadRegions } from "./config/teamsSource";
 import type { Region } from "./engine/types";
 import { loadRegionState, saveRegionState, resetRegionState, createInitialState } from "./storage/regionStorage";
 import { LandingPage } from "./features/landing/LandingPage";
@@ -11,32 +12,49 @@ import { TeamSelect } from "./features/team-select/TeamSelect";
 import { ComparisonView } from "./features/comparison/ComparisonView";
 import { RankingsView } from "./features/rankings/RankingsView";
 
-const regions = teamsData.regions as Record<string, Region>;
+const fallbackRegions = fallbackTeams.regions as Record<string, Region>;
 
-function getTeamIds(regionId: string): string[] {
+function getTeamIds(regions: Record<string, Region>, regionId: string): string[] {
   return regions[regionId]?.teams.map((t) => t.id) ?? [];
 }
 
-function loadAllRegionStates(): Record<RegionId, RegionState> {
+function loadAllRegionStates(regions: Record<string, Region>): Record<RegionId, RegionState> {
   const states = {} as Record<RegionId, RegionState>;
   for (const regionId of REGION_IDS) {
-    states[regionId] = loadRegionState(regionId, getTeamIds(regionId));
+    states[regionId] = loadRegionState(regionId, getTeamIds(regions, regionId));
   }
   return states;
 }
 
 export function App() {
   const [viewState, setViewState] = useState<ViewState>({ view: "landing" });
-  const [regionStates, setRegionStates] = useState<Record<RegionId, RegionState>>(loadAllRegionStates);
+  const [regions, setRegions] = useState<Record<string, Region>>(fallbackRegions);
+  const [regionStates, setRegionStates] = useState<Record<RegionId, RegionState>>(() =>
+    loadAllRegionStates(fallbackRegions),
+  );
+
+  useEffect(() => {
+    loadRegions()
+      .then((fetched) => {
+        setRegions(fetched);
+        console.info("[mm-ranker] Loaded team data from Google Sheet");
+      })
+      .catch((err) => {
+        console.warn(
+          "[mm-ranker] Sheet fetch failed — falling back to bundled teams.json",
+          err,
+        );
+      });
+  }, []);
 
   const refreshRegionStates = useCallback(() => {
-    setRegionStates(loadAllRegionStates());
-  }, []);
+    setRegionStates(loadAllRegionStates(regions));
+  }, [regions]);
 
   const currentRegion = useMemo(() => {
     if (viewState.view === "landing") return null;
     return regions[viewState.regionId] ?? null;
-  }, [viewState]);
+  }, [viewState, regions]);
 
   const currentState = useMemo(() => {
     if (viewState.view === "landing") return null;
@@ -57,7 +75,7 @@ export function App() {
   function handleTeamSelect(teamId: string | null) {
     if (viewState.view !== "team-select") return;
     const regionId = viewState.regionId as RegionId;
-    const teamIds = getTeamIds(regionId);
+    const teamIds = getTeamIds(regions, regionId);
     const state = createInitialState(teamIds);
     state.myTeamId = teamId;
     saveRegionState(regionId, state);

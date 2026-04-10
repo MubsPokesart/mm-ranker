@@ -33,3 +33,5 @@ export const TEAM_HEADER_COLORS: Record<RegionId, string[]> = {
 };
 
 export const STORAGE_KEY_PREFIX = "mm-ranker";
+
+export const SHEET_ID = "1SreaqGg7Nv22FXC9a4zhj95u7fm_FSJeTJ5zOzYTxfE";
