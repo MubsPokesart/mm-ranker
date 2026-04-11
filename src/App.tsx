@@ -151,7 +151,7 @@ export function App() {
       );
 
     case "draft-management-matchup":
-      return <GenerateMatchupPage onBack={handleBackToDraftManagement} />;
+      return <GenerateMatchupPage regions={regions} onBack={handleBackToDraftManagement} />;
 
     case "draft-management-form":
       return <GenerateFormPage onBack={handleBackToDraftManagement} />;

@@ -1,0 +1,49 @@
+/* Dimensions derived from the reference sheet screenshot (486×252 for two teams):
+   - card width: 243px
+   - name column: 202px
+   - year column: 41px
+   - row height: 23px (≈ 252 / 11 rows)
+   - header: Fira Sans 12pt bold
+   - body:   Fira Sans 11pt regular
+*/
+.matchup-card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Fira Sans", Arial, sans-serif;
+  width: 243px;
+  flex-shrink: 0;
+}
+
+.matchup-card-row {
+  display: flex;
+  align-items: center;
+  height: 23px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.matchup-card-row:last-child {
+  border-bottom: none;
+}
+
+.matchup-card-row--header {
+  font-weight: 700;
+  font-size: 12pt;
+}
+
+.matchup-card-row:not(.matchup-card-row--header) {
+  font-size: 11pt;
+}
+
+.matchup-card-cell--name {
+  width: 202px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.matchup-card-cell--year {
+  width: 41px;
+  text-align: center;
+}

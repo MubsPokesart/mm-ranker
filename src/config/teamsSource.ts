@@ -8,7 +8,11 @@ const BLOCKS_PER_REGION = 4;
 
 function buildSheetUrl(tabName: string): string {
   const base = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq`;
-  const params = new URLSearchParams({ tqx: "out:csv", sheet: tabName });
+  const params = new URLSearchParams({
+    tqx: "out:csv",
+    sheet: tabName,
+    _: Date.now().toString(),
+  });
   return `${base}?${params.toString()}`;
 }
 
@@ -120,7 +124,7 @@ function parseRegion(regionId: RegionId, regionName: string, rows: string[][]): 
 
 async function fetchRegion(regionId: RegionId): Promise<Region> {
   const tabName = REGION_DISPLAY_NAMES[regionId];
-  const res = await fetch(buildSheetUrl(tabName));
+  const res = await fetch(buildSheetUrl(tabName), { cache: "no-store" });
   if (!res.ok) {
     throw new Error(`Sheet fetch failed for ${tabName}: ${res.status}`);
   }
