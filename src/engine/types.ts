@@ -42,4 +42,7 @@ export type ViewState =
   | { view: "landing" }
   | { view: "team-select"; regionId: string }
   | { view: "comparison"; regionId: string }
-  | { view: "rankings"; regionId: string };
+  | { view: "rankings"; regionId: string }
+  | { view: "draft-management" }
+  | { view: "draft-management-matchup" }
+  | { view: "draft-management-form" };

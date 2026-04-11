@@ -11,6 +11,9 @@ import { LandingPage } from "./features/landing/LandingPage";
 import { TeamSelect } from "./features/team-select/TeamSelect";
 import { ComparisonView } from "./features/comparison/ComparisonView";
 import { RankingsView } from "./features/rankings/RankingsView";
+import { DraftManagementPage } from "./features/draft-management/DraftManagementPage";
+import { GenerateMatchupPage } from "./features/draft-management/GenerateMatchupPage";
+import { GenerateFormPage } from "./features/draft-management/GenerateFormPage";
 
 const fallbackRegions = fallbackTeams.regions as Record<string, Region>;
 
@@ -52,12 +55,12 @@ export function App() {
   }, [regions]);
 
   const currentRegion = useMemo(() => {
-    if (viewState.view === "landing") return null;
+    if (viewState.view === "landing" || viewState.view === "draft-management" || viewState.view === "draft-management-matchup" || viewState.view === "draft-management-form") return null;
     return regions[viewState.regionId] ?? null;
   }, [viewState, regions]);
 
   const currentState = useMemo(() => {
-    if (viewState.view === "landing") return null;
+    if (viewState.view === "landing" || viewState.view === "draft-management" || viewState.view === "draft-management-matchup" || viewState.view === "draft-management-form") return null;
     return regionStates[viewState.regionId as RegionId] ?? null;
   }, [viewState, regionStates]);
 
@@ -101,7 +104,7 @@ export function App() {
   }
 
   function handleReset() {
-    if (viewState.view === "landing") return;
+    if (viewState.view === "landing" || viewState.view === "draft-management" || viewState.view === "draft-management-matchup" || viewState.view === "draft-management-form") return;
     const regionId = viewState.regionId as RegionId;
     resetRegionState(regionId);
     refreshRegionStates();
@@ -112,14 +115,46 @@ export function App() {
     setViewState({ view: "landing" });
   }
 
+  function handleOpenDraftManagement() {
+    setViewState({ view: "draft-management" });
+  }
+
+  function handleOpenMatchup() {
+    setViewState({ view: "draft-management-matchup" });
+  }
+
+  function handleOpenForm() {
+    setViewState({ view: "draft-management-form" });
+  }
+
+  function handleBackToDraftManagement() {
+    setViewState({ view: "draft-management" });
+  }
+
   switch (viewState.view) {
     case "landing":
       return (
         <LandingPage
           regionStates={regionStates}
           onSelectRegion={handleSelectRegion}
+          onOpenDraftManagement={handleOpenDraftManagement}
         />
       );
+
+    case "draft-management":
+      return (
+        <DraftManagementPage
+          onBack={handleBack}
+          onOpenMatchup={handleOpenMatchup}
+          onOpenForm={handleOpenForm}
+        />
+      );
+
+    case "draft-management-matchup":
+      return <GenerateMatchupPage onBack={handleBackToDraftManagement} />;
+
+    case "draft-management-form":
+      return <GenerateFormPage onBack={handleBackToDraftManagement} />;
 
     case "team-select":
       if (!currentRegion) return null;

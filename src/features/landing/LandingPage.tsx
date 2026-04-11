@@ -1,11 +1,16 @@
+import { useState } from "react";
 import { REGION_IDS, REGION_DISPLAY_NAMES, MIN_COMPARISONS_TO_UNLOCK } from "../../config/constants";
 import type { RegionId } from "../../config/constants";
 import type { RegionState } from "../../engine/types";
+import { DraftGateModal } from "../draft-management/DraftGateModal";
+import { readGateConfig, verifyPasscode } from "../draft-management/draftGate";
+import { getCachedPasscode, clearCachedPasscode } from "../draft-management/draftGateStorage";
 import "./LandingPage.css";
 
 interface LandingPageProps {
   regionStates: Record<RegionId, RegionState>;
   onSelectRegion: (regionId: RegionId) => void;
+  onOpenDraftManagement: () => void;
 }
 
 function formatProgress(state: RegionState): string {
@@ -15,7 +20,27 @@ function formatProgress(state: RegionState): string {
   return `${count} / ${MIN_COMPARISONS_TO_UNLOCK} comparisons`;
 }
 
-export function LandingPage({ regionStates, onSelectRegion }: LandingPageProps) {
+export function LandingPage({ regionStates, onSelectRegion, onOpenDraftManagement }: LandingPageProps) {
+  const [gateOpen, setGateOpen] = useState(false);
+
+  async function handleDraftManagementClick() {
+    const cached = getCachedPasscode();
+    if (cached) {
+      const config = readGateConfig();
+      if (config && (await verifyPasscode(cached, config))) {
+        onOpenDraftManagement();
+        return;
+      }
+      clearCachedPasscode();
+    }
+    setGateOpen(true);
+  }
+
+  function handleUnlock() {
+    setGateOpen(false);
+    onOpenDraftManagement();
+  }
+
   return (
     <main className="landing-page">
       <h1 className="landing-title">Draft 78 March Madness Ranker</h1>
@@ -35,6 +60,16 @@ export function LandingPage({ regionStates, onSelectRegion }: LandingPageProps) 
           </button>
         ))}
       </nav>
+
+      <section className="draft-mgmt-section" aria-label="Draft Management">
+        <button className="draft-mgmt-button" onClick={handleDraftManagementClick}>
+          Draft Management
+        </button>
+      </section>
+
+      {gateOpen && (
+        <DraftGateModal onUnlock={handleUnlock} onClose={() => setGateOpen(false)} />
+      )}
     </main>
   );
 }

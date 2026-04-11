@@ -1,0 +1,73 @@
+.draft-management-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding-top: var(--spacing-xl);
+}
+
+.draft-management-back {
+  align-self: flex-start;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+}
+
+.draft-management-back:hover {
+  background: var(--color-hover);
+  color: var(--color-text);
+}
+
+.draft-management-title {
+  font-size: clamp(20px, 5vw, 28px);
+  font-weight: 700;
+  text-align: center;
+}
+
+.draft-management-body {
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.draft-management-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  width: 100%;
+  max-width: 600px;
+}
+
+.draft-management-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.draft-management-card:hover {
+  background: var(--color-surface-raised);
+  transform: translateY(-2px);
+}
+
+@media (hover: none) {
+  .draft-management-card:hover {
+    transform: none;
+  }
+}
+
+.draft-management-card-name {
+  font-size: clamp(14px, 3vw, 18px);
+  font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .draft-management-grid {
+    gap: var(--spacing-sm);
+  }
+  .draft-management-card {
+    padding: var(--spacing-md);
+  }
+}
