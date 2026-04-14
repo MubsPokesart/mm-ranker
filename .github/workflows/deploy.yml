@@ -27,6 +27,7 @@ jobs:
         env:
           VITE_DRAFT_MGMT_HASH: ${{ secrets.VITE_DRAFT_MGMT_HASH }}
           VITE_DRAFT_MGMT_SALT: ${{ secrets.VITE_DRAFT_MGMT_SALT }}
+          VITE_FORM_APPS_SCRIPT_URL: ${{ secrets.VITE_FORM_APPS_SCRIPT_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

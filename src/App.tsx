@@ -154,7 +154,7 @@ export function App() {
       return <GenerateMatchupPage regions={regions} onBack={handleBackToDraftManagement} />;
 
     case "draft-management-form":
-      return <GenerateFormPage onBack={handleBackToDraftManagement} />;
+      return <GenerateFormPage regions={regions} onBack={handleBackToDraftManagement} />;
 
     case "team-select":
       if (!currentRegion) return null;
