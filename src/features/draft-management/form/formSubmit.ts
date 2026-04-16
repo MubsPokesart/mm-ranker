@@ -11,6 +11,8 @@ interface SubmitPayload {
   description: string;
   matchups: Array<{
     title: string;
+    homeLabel: string;
+    awayLabel: string;
     imageBase64: string;
     filename: string;
   }>;
@@ -27,6 +29,23 @@ const FORM_DESCRIPTION =
 
 function slugForFilename(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+const MASCOT_MODIFIERS = new Set([
+  "rainbow", "yellow", "tar", "horned", "fighting", "big",
+  "red", "sun", "blue", "crimson", "mountain",
+]);
+
+function shortenTeamName(fullName: string): string {
+  const words = fullName.split(/\s+/);
+  if (words.length <= 1) return fullName;
+  if (words.length >= 3) {
+    const secondToLast = words[words.length - 2]!.toLowerCase();
+    if (MASCOT_MODIFIERS.has(secondToLast)) {
+      return words.slice(0, -2).join(" ");
+    }
+  }
+  return words.slice(0, -1).join(" ");
 }
 
 async function captureNodeAsBase64(node: HTMLElement): Promise<string> {
@@ -56,6 +75,8 @@ export async function submitForm(
       if (!node) throw new Error(`Missing preview node for matchup ${i + 1}`);
       return captureNodeAsBase64(node).then((imageBase64) => ({
         title: `${m.home.team.name} vs ${m.away.team.name}`,
+        homeLabel: shortenTeamName(m.home.team.name),
+        awayLabel: shortenTeamName(m.away.team.name),
         imageBase64,
         filename: `matchup-${slugForFilename(m.home.team.name)}-vs-${slugForFilename(m.away.team.name)}.png`,
       }));
@@ -68,18 +89,28 @@ export async function submitForm(
     matchups: captured,
   };
 
+  const body = new FormData();
+  body.append("payload", JSON.stringify(payload));
   const res = await fetch(endpoint, {
     method: "POST",
-    body: JSON.stringify(payload),
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body,
     redirect: "follow",
   });
   if (!res.ok) {
     throw new Error(`Form creation failed: ${res.status}`);
   }
-  const json = (await res.json()) as FormSubmitResult;
+  const raw = await res.text();
+  let json: FormSubmitResult & { error?: string };
+  try {
+    json = JSON.parse(raw);
+  } catch {
+    throw new Error(`Form creation returned non-JSON response: ${raw.slice(0, 300)}`);
+  }
+  if (json.error) {
+    throw new Error(`Apps Script error: ${json.error}`);
+  }
   if (!json.editUrl) {
-    throw new Error("Form creation response missing editUrl");
+    throw new Error(`Form creation response missing editUrl. Raw: ${raw.slice(0, 300)}`);
   }
   return json;
 }
